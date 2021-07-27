@@ -72,3 +72,43 @@ func testDiscarableResult() {
     p.moveBy(deltaX: 9)
 }
 
+
+
+//let fun1 = Person(age: 10).run
+//fun1(20) //func run  10 20
+////let fun2 = Person.run
+////fun2(20) //static func run 20
+//
+//let fun3: (Person) -> ((Int) -> ()) = Person.run
+//let fun4 = Person.run
+
+//MARK: 把方法赋值给let/var
+do {
+    //MARK: 获取实例方法
+    struct Person {
+        var age: Int
+        func run(_ v: Int) { print("func run ",age,v)}
+    }
+    //第一种，通过实例获取方法
+    let p = Person(age: 10)
+    let fun1 = p.run
+    fun1(10)//func run  10 10
+    //第二种通过类型获取方法，绑定实例
+    let fun2 = Person.run //fun2的类型： (Person) -> ((Int) -> ())
+    let fun3 = fun2(p) //绑定实例，获取实例方法
+    fun3(15) //func run  10 15
+}
+
+do {
+    //MARK: 获取类型方法
+    struct Person {
+        var age: Int
+        static func run(_ v: Int) { print("static func run ",v)}
+    }
+    
+    let fun = Person.run
+    fun(20)//static func run  20
+}
+
+
+

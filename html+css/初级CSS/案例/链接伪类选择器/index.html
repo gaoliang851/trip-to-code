@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+       /* class=baidu 没有点击过链接的颜色 */
+       .baidu:link {
+           color: #333333;
+           text-decoration: none;
+       }
+       /* class=baidu 点击过的链接的颜色 */
+       .baidu:visited {
+           color: brown;
+       }
+       /* class=baidu 鼠标经过链接的颜色 */
+       .baidu:hover {
+           color: skyblue;
+       }
+       /* class=baidu 鼠标正在按下还没弹起时链接的颜色 */
+       .baidu:active {
+           color: red;
+       }
+       /* span标签 鼠标经过链接的颜色 */
+       span:hover {
+           color: blue;
+       }
+
+    </style>
+</head>
+<body>
+    <a href="#">百度一下</a>
+    <a class="baidu" href="#">百度一下2</a>
+    <span>this is span</span>
+</body>
+</html>

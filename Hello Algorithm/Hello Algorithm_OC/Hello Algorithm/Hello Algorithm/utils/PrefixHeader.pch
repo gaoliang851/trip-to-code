@@ -1,0 +1,13 @@
+//
+//  PrefixHeader.pch
+//  Hello Algorithm
+//
+//  Created by mac on 2021/4/29.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "GLLog.h"
+
+#endif /* PrefixHeader_pch */

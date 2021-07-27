@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e71f608e-66a5-499c-899e-92aa442a854e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Hello Algorithm/Hello Algorithm_Java/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hello Algorithm/Hello Algorithm_Java/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hello Algorithm/Hello Algorithm_Java/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hello Algorithm/Hello Algorithm_Java/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hello Algorithm/Hello Algorithm_Java/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hello Algorithm/Hello Algorithm_Java/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hello Algorithm/Hello Algorithm_Java/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hello Algorithm/Hello Algorithm_Java/Hello Algorithm_Java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hello Algorithm/Hello Algorithm_Java/out/production/Hello Algorithm_Java/com/algorithm/List/ArrayList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hello Algorithm/Hello Algorithm_Java/out/production/Hello Algorithm_Java/com/algorithm/Test/ArrayListTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hello Algorithm/Hello Algorithm_Java/src/com/algorithm/List/ArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hello Algorithm/Hello Algorithm_Java/src/com/algorithm/List/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hello Algorithm/Hello Algorithm_Java/src/com/algorithm/Test/ArrayListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hello Algorithm/Hello Algorithm_Java/src/com/algorithm/Test/LinkListExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hello Algorithm/Hello Algorithm_OC/Hello Algorithm/Hello Algorithm.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hello Algorithm/Hello Algorithm_OC/Hello Algorithm/Hello Algorithm.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hello Algorithm/Hello Algorithm_OC/Hello Algorithm/Hello Algorithm.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hello Algorithm/Hello Algorithm_OC/Hello Algorithm/Hello Algorithm/List/GLArrayList.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hello Algorithm/Hello Algorithm_OC/Hello Algorithm/Hello Algorithm/List/GLArrayList.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hello Algorithm/Hello Algorithm_OC/Hello Algorithm/Hello Algorithm/List/GLListIndexOutOfBoundsException.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hello Algorithm/Hello Algorithm_OC/Hello Algorithm/Hello Algorithm/List/GLListIndexOutOfBoundsException.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hello Algorithm/Hello Algorithm_OC/Hello Algorithm/Hello Algorithm/Test/Person.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hello Algorithm/Hello Algorithm_OC/Hello Algorithm/Hello Algorithm/Test/Person.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hello Algorithm/Hello Algorithm_OC/Hello Algorithm/Hello Algorithm/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hello Algorithm/Hello Algorithm_OC/Hello Algorithm/Hello Algorithm/utils/GLLog.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hello Algorithm/Hello Algorithm_OC/Hello Algorithm/Hello Algorithm/utils/GLLog.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hello Algorithm/Hello Algorithm_OC/Hello Algorithm/Hello Algorithm/utils/PrefixHeader.pch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/链表/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/链表/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/链表/_141_环形链表.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/链表/_203_移除链表元素.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/链表/_206_反转链表.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/链表/_237_删除链表中的节点.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/链表/_83_删除排序链表中的重复元素.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/链表/_876_链表的中间结点.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/思维导图/CSS.mindnode/QuickLook/Preview.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/思维导图/CSS.mindnode/contents.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/思维导图/CSS.mindnode/resources/03C9B64F-B6D8-4CBC-A26A-F058A8BDFE12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/思维导图/CSS.mindnode/resources/0E9BBD6C-D7D2-496E-B681-43E58E3D4394.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/思维导图/CSS.mindnode/resources/22529CE0-7C69-4C82-94FE-F5C82382635C.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/思维导图/CSS.mindnode/resources/234DA8DB-744C-40FB-93B1-B3D60778806F.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/思维导图/CSS.mindnode/resources/56F79F56-FB71-4C8A-819F-8BFECFA1759A.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/思维导图/CSS.mindnode/resources/58FDB845-C714-4DFA-A8FB-EEE6816781E7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/思维导图/CSS.mindnode/resources/5A06972A-FB4B-4C83-A7AD-A2C78DD5401F.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/思维导图/CSS.mindnode/resources/5F496D06-B60A-41DF-BD9F-F71412424F6F.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/思维导图/CSS.mindnode/resources/65CCCC7A-0AFD-4642-8BB8-689DA0C056AD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/思维导图/CSS.mindnode/resources/7305DB78-8E0D-4470-BA16-68EDE8C0D1F7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/思维导图/CSS.mindnode/resources/7BC8033D-FFCD-4F67-A356-9CC67678A0A0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/思维导图/CSS.mindnode/resources/9DFFD000-935F-41C6-BFA8-49EBF224FCB2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/思维导图/CSS.mindnode/resources/9FA85DA4-C4FB-4731-A033-E7A3C96C4A0C.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/思维导图/CSS.mindnode/resources/A210B741-A4EE-418A-9A5B-8D309D4928EB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/思维导图/CSS.mindnode/resources/BDA475A8-1F89-4CE2-BA46-88BCC90972B4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/思维导图/CSS.mindnode/resources/DA7CE3FC-2BDF-4624-9EE5-8A1C9773426E.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/思维导图/CSS.mindnode/resources/E03F2FD9-4C4B-421C-B514-941DCA5DF128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/思维导图/CSS.mindnode/resources/EB9A3B33-12C3-44D5-B9B1-7558D0419D53.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/思维导图/CSS.mindnode/resources/F3C27956-D8E4-4CB2-A410-44F3E09377E3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/思维导图/CSS.mindnode/resources/F43D4601-D631-4460-A1CA-004AC66641FD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/思维导图/CSS.mindnode/style.mindnodestyle/contents.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/思维导图/CSS.mindnode/style.mindnodestyle/metadata.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/思维导图/CSS.mindnode/viewState.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/案例/focus伪类选择器/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/案例/五彩导航/Untitled-1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/案例/五彩导航/images/bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/案例/五彩导航/images/bg11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/案例/五彩导航/images/bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/案例/五彩导航/images/bg22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/案例/五彩导航/images/bg3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/案例/五彩导航/images/bg3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/案例/五彩导航/images/bg4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/案例/五彩导航/images/bg5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/案例/五彩导航/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/案例/侧边栏菜单的案例/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/案例/利用div画3个盒子/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/案例/利用div画3个盒子/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/案例/后代选择器/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/案例/子选择器/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/案例/并集选择器/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/案例/新闻详情案例/images/pic.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/案例/新闻详情案例/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/案例/设置背景/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/案例/设置背景/images/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/案例/设置背景/images/pic.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/案例/设置背景/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/案例/设置背景/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级CSS/案例/链接伪类选择器/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级html/Code/列表/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级html/Code/图片标签/images/jst.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级html/Code/图片标签/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级html/Code/基本骨架/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级html/Code/文本标签/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级html/Code/文本格式化/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级html/Code/练习/images/arr.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级html/Code/练习/images/bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级html/Code/练习/images/bg9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级html/Code/练习/images/oldman.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级html/Code/练习/images/sd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级html/Code/练习/images/t1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级html/Code/练习/images/t2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级html/Code/练习/images/t3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级html/Code/练习/images/t4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级html/Code/练习/images/t5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级html/Code/练习/images/t6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级html/Code/练习/images/ys.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级html/Code/练习/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级html/Code/脑图/HTML标签.xmind" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级html/Code/表单/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级html/Code/表格标签/down.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级html/Code/表格标签/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级html/Code/表格标签/up.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级html/Code/语法规范/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html+css/初级html/Code/超链接/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/01-OC对象的本质/01-OC对象的本质.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/01-OC对象的本质/01-OC对象的本质.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/01-OC对象的本质/01-OC对象的本质.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/01-OC对象的本质/01-OC对象的本质/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/01-OC对象的本质/02-OC对象的本质/main-arm64.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/01-OC对象的本质/02-OC对象的本质/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/01-OC对象的本质/Property成员/main-arm64.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/01-OC对象的本质/Property成员/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/01-OC对象的本质/继承关系的场景/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/02-OC对象的分类/02-OC对象的分类.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/02-OC对象的分类/02-OC对象的分类.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/02-OC对象的分类/02-OC对象的分类.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/02-OC对象的分类/02-OC对象的分类/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/02-OC对象的分类/class对象/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/02-OC对象的分类/meta-class/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/03-isa/03-isa.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/03-isa/03-isa.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/03-isa/03-isa.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/03-isa/03-isa/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/04-KVO&amp;KVC/04-KVO&amp;KVC.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/04-KVO&amp;KVC/04-KVO&amp;KVC.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/04-KVO&amp;KVC/04-KVO&amp;KVC.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/04-KVO&amp;KVC/04-KVO&amp;KVC/AppDelegate.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/04-KVO&amp;KVC/04-KVO&amp;KVC/AppDelegate.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/04-KVO&amp;KVC/04-KVO&amp;KVC/Assets.xcassets/AccentColor.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/04-KVO&amp;KVC/04-KVO&amp;KVC/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/04-KVO&amp;KVC/04-KVO&amp;KVC/Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/04-KVO&amp;KVC/04-KVO&amp;KVC/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/04-KVO&amp;KVC/04-KVO&amp;KVC/Base.lproj/Main.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/04-KVO&amp;KVC/04-KVO&amp;KVC/GLPerson.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/04-KVO&amp;KVC/04-KVO&amp;KVC/GLPerson.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/04-KVO&amp;KVC/04-KVO&amp;KVC/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/04-KVO&amp;KVC/04-KVO&amp;KVC/SceneDelegate.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/04-KVO&amp;KVC/04-KVO&amp;KVC/SceneDelegate.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/04-KVO&amp;KVC/04-KVO&amp;KVC/ViewController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/04-KVO&amp;KVC/04-KVO&amp;KVC/ViewController.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/04-KVO&amp;KVC/04-KVO&amp;KVC/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/04-KVO&amp;KVC/KVO/GLPerson.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/04-KVO&amp;KVC/KVO/GLPerson.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/04-KVO&amp;KVC/KVO/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/05-Category/05-Category.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/05-Category/05-Category.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/05-Category/05-Category.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/05-Category/05-Category/NSObject+Runnable.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/05-Category/05-Category/NSObject+Runnable.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/05-Category/05-Category/NSObject+Runnable.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/05-Category/05-Category/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/05-Category/Category的load方法/SubObject1+Runable.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/05-Category/Category的load方法/SubObject1+Runable.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/05-Category/Category的load方法/SubObject1.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/05-Category/Category的load方法/SubObject1.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/05-Category/Category的load方法/SubObject2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/05-Category/Category的load方法/SubObject2.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/05-Category/Category的load方法/SuperObject+Runnale.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/05-Category/Category的load方法/SuperObject+Runnale.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/05-Category/Category的load方法/SuperObject+Start.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/05-Category/Category的load方法/SuperObject+Start.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/05-Category/Category的load方法/SuperObject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/05-Category/Category的load方法/SuperObject.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/05-Category/Category的load方法/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/05-Category/initialize/SubObject1+Runable.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/05-Category/initialize/SubObject1+Runable.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/05-Category/initialize/SubObject1.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/05-Category/initialize/SubObject1.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/05-Category/initialize/SubObject2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/05-Category/initialize/SubObject2.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/05-Category/initialize/SuperObject+Runnale.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/05-Category/initialize/SuperObject+Runnale.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/05-Category/initialize/SuperObject+Start.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/05-Category/initialize/SuperObject+Start.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/05-Category/initialize/SuperObject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/05-Category/initialize/SuperObject.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/05-Category/initialize/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/05-Category/调用原有实现/GLObject+Test.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/05-Category/调用原有实现/GLObject+Test.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/05-Category/调用原有实现/GLObject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/05-Category/调用原有实现/GLObject.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/05-Category/调用原有实现/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/06-关联对象/06-关联对象.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/06-关联对象/06-关联对象.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/06-关联对象/06-关联对象.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/06-关联对象/06-关联对象/NSObject+Tag.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/06-关联对象/06-关联对象/NSObject+Tag.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/06-关联对象/06-关联对象/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/01-block的基本使用/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/02-block的本质/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/02-block的本质/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/02-block的本质/main1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/03-捕获Auto变量/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/03-捕获Auto变量/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/04-捕获局部static变量/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/04-捕获局部static变量/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/05-捕获全局变量/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/05-捕获全局变量/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/06-捕获self变量/TestObj.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/06-捕获self变量/TestObj.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/06-捕获self变量/TestObj.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/06-捕获self变量/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/07-block.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/07-block.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/07-block.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/07-block类型/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/07-block类型/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/08-block的copy操作/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/09-对象类型的auto变量/GLPerson.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/09-对象类型的auto变量/GLPerson.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/09-对象类型的auto变量/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/09-对象类型的auto变量/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/10-__block修饰符/GLPerson.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/10-__block修饰符/GLPerson.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/10-__block修饰符/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/10-__block修饰符/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/11-__block的内存管理/GLPerson.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/11-__block的内存管理/GLPerson.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/11-__block的内存管理/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/11-__block的内存管理/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/12-循环引用/GLPerson.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/12-循环引用/GLPerson.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/12-循环引用/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/08-isa详解/01-位运算/GLPerson.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/08-isa详解/01-位运算/GLPerson.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/08-isa详解/01-位运算/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/08-isa详解/08-isa详解.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/08-isa详解/08-isa详解.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/08-isa详解/08-isa详解.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/09-class结构/09-class结构.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/09-class结构/09-class结构.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/09-class结构/09-class结构.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/09-class结构/09-class结构/AppDelegate.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/09-class结构/09-class结构/AppDelegate.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/09-class结构/09-class结构/Assets.xcassets/AccentColor.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/09-class结构/09-class结构/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/09-class结构/09-class结构/Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/09-class结构/09-class结构/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/09-class结构/09-class结构/Base.lproj/Main.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/09-class结构/09-class结构/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/09-class结构/09-class结构/MJClassInfo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/09-class结构/09-class结构/SceneDelegate.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/09-class结构/09-class结构/SceneDelegate.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/09-class结构/09-class结构/ViewController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/09-class结构/09-class结构/ViewController.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/09-class结构/09-class结构/main.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/10-objc_msgSend/10-objc_msgSend.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/10-objc_msgSend/10-objc_msgSend.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/10-objc_msgSend/10-objc_msgSend.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/10-objc_msgSend/动态方法解析/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/10-objc_msgSend/消息转发/GLCat.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/10-objc_msgSend/消息转发/GLCat.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/10-objc_msgSend/消息转发/GLPerson.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/10-objc_msgSend/消息转发/GLPerson.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/10-objc_msgSend/消息转发/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/脑图/Category_load调用流程.mindnode/QuickLook/Preview.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/脑图/Category_load调用流程.mindnode/contents.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/脑图/Category_load调用流程.mindnode/resources/DF4E0F15-217F-4C8A-B1DB-D243EFD0437D.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/脑图/Category_load调用流程.mindnode/style.mindnodestyle/contents.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/脑图/Category_load调用流程.mindnode/style.mindnodestyle/metadata.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/脑图/Category_load调用流程.mindnode/viewState.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/脑图/Category的加载流程.mindnode/QuickLook/Preview.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/脑图/Category的加载流程.mindnode/contents.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/脑图/Category的加载流程.mindnode/resources/84708A24-DCF3-440E-9B73-C4E3EE499048.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/脑图/Category的加载流程.mindnode/resources/A64E2584-8C3F-4728-898C-4C06AABE279E.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/脑图/Category的加载流程.mindnode/resources/DAF73559-ECBD-4F13-B23E-AD9F784EEAE5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/脑图/Category的加载流程.mindnode/resources/FD0F45B7-2FDC-4BBA-A3CC-3A7C4B393B73.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/脑图/Category的加载流程.mindnode/style.mindnodestyle/contents.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/脑图/Category的加载流程.mindnode/style.mindnodestyle/metadata.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/脑图/Category的加载流程.mindnode/viewState.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/Swift之内存管理/Swift之内存管理.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/Swift之内存管理/Swift之内存管理.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/Swift之内存管理/Swift之内存管理.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/Swift之内存管理/Swift之内存管理/main.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/Swift之内存管理/Swift之内存管理/test.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/Swift之协议/Swift之协议.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/Swift之协议/Swift之协议.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/Swift之协议/Swift之协议.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/Swift之协议/Swift之协议/main.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/Swift之可选链/Swift之可选链.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/Swift之可选链/Swift之可选链.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/Swift之可选链/Swift之可选链.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/Swift之可选链/Swift之可选链/main.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/Swift之扩展/Swift之扩展.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/Swift之扩展/Swift之扩展.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/Swift之扩展/Swift之扩展.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/Swift之扩展/Swift之扩展/main.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/Swift之模式匹配/Swift之模式匹配.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/Swift之模式匹配/Swift之模式匹配.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/Swift之模式匹配/Swift之模式匹配.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/Swift之模式匹配/Swift之模式匹配/main.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/Swift之泛型/Swift之泛型.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/Swift之泛型/Swift之泛型.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/Swift之泛型/Swift之泛型.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/Swift之泛型/Swift之泛型/main.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/Swift之错误处理/Swift之错误处理.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/Swift之错误处理/Swift之错误处理.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/Swift之错误处理/Swift之错误处理.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/Swift之错误处理/Swift之错误处理/main.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/swift之从OC迁移/iOS从OC迁移到Swift/iOS从OC迁移到Swift.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/swift之从OC迁移/iOS从OC迁移到Swift/iOS从OC迁移到Swift.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/swift之从OC迁移/iOS从OC迁移到Swift/iOS从OC迁移到Swift.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/swift之从OC迁移/iOS从OC迁移到Swift/iOS从OC迁移到Swift/AppDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/swift之从OC迁移/iOS从OC迁移到Swift/iOS从OC迁移到Swift/Assets.xcassets/AccentColor.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/swift之从OC迁移/iOS从OC迁移到Swift/iOS从OC迁移到Swift/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/swift之从OC迁移/iOS从OC迁移到Swift/iOS从OC迁移到Swift/Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/swift之从OC迁移/iOS从OC迁移到Swift/iOS从OC迁移到Swift/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/swift之从OC迁移/iOS从OC迁移到Swift/iOS从OC迁移到Swift/Base.lproj/Main.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/swift之从OC迁移/iOS从OC迁移到Swift/iOS从OC迁移到Swift/Cache.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/swift之从OC迁移/iOS从OC迁移到Swift/iOS从OC迁移到Swift/Car.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/swift之从OC迁移/iOS从OC迁移到Swift/iOS从OC迁移到Swift/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/swift之从OC迁移/iOS从OC迁移到Swift/iOS从OC迁移到Swift/OCPerson.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/swift之从OC迁移/iOS从OC迁移到Swift/iOS从OC迁移到Swift/OCPerson.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/swift之从OC迁移/iOS从OC迁移到Swift/iOS从OC迁移到Swift/ViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/swift之从OC迁移/iOS从OC迁移到Swift/iOS从OC迁移到Swift/iOS从OC迁移到Swift-Bridging-Header.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/swift之从OC迁移/iOS从OC迁移到Swift/iOS从OC迁移到Swift/main.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/swift之从OC迁移/swift之从OC迁移.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/swift之从OC迁移/swift之从OC迁移.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/swift之从OC迁移/swift之从OC迁移.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/swift之从OC迁移/swift之从OC迁移.xcodeproj/xcshareddata/xcschemes/swift之从OC迁移.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/swift之从OC迁移/swift之从OC迁移/main.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/swift之函数式编程/swift之函数式编程.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/swift之函数式编程/swift之函数式编程.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/swift之函数式编程/swift之函数式编程.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/swift之函数式编程/swift之函数式编程/main.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/swift之字面量/swift之字面量.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/swift之字面量/swift之字面量.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/swift之字面量/swift之字面量.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/swift之字面量/swift之字面量/main.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/swift之访问控制/swift之访问控制.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/swift之访问控制/swift之访问控制.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/swift之访问控制/swift之访问控制.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/swift之访问控制/swift之访问控制/main.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/swift之访问控制/swift之访问控制/other.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/swift之高级运算符/swift之高级运算符.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/swift之高级运算符/swift之高级运算符.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/swift之高级运算符/swift之高级运算符.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift学习入门/swift之高级运算符/swift之高级运算符/main.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../swift学习入门/Swift之方法/Swift之方法/main.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../../swift学习入门/Swift之方法/Swift之方法/main.swift" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/algorithm/链表/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/algorithm/链表/_237_删除链表中的节点.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="8" selection-end-line="15" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/algorithm/链表/ListNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/algorithm/链表/_206_反转链表.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/algorithm/链表/_141_环形链表.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="23" lean-forward="true" selection-start-line="2" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/algorithm/链表/_203_移除链表元素.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="5" selection-start-line="5" selection-end-line="42" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/algorithm/链表/_83_删除排序链表中的重复元素.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="2" selection-start-line="2" selection-end-line="17" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/algorithm/链表/_876_链表的中间结点.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/fe0ef40d370366b722a28d0742509dc2/Message/MessageTemp/33d3fb25dee0f93e07bd0d24af371ea6/File/MobileOcauManager.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="502">
+              <caret line="161" column="25" lean-forward="true" selection-start-line="161" selection-start-column="25" selection-end-line="161" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/algorithm/链表/_237_删除链表中的节点.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithm/链表/ListNode.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithm/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithm/链表/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithm/链表/_206_反转链表.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithm/链表/_141_环形链表.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithm/链表/_203_移除链表元素.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithm/链表/_83_删除排序链表中的重复元素.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithm/链表/_876_链表的中间结点.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LeetCodeBook-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCodeBook-Java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCodeBook-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCodeBook-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCodeBook-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCodeBook-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCodeBook-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCodeBook-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="链表" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.链表.Main" />
+      <module name="LeetCodeBook-Java" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e71f608e-66a5-499c-899e-92aa442a854e" name="Default Changelist" comment="" />
+      <created>1625131295047</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625131295047</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3404864" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32921812" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32921812" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/algorithm/链表/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/fe0ef40d370366b722a28d0742509dc2/Message/MessageTemp/33d3fb25dee0f93e07bd0d24af371ea6/File/MobileOcauManager.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="161" column="25" lean-forward="true" selection-start-line="161" selection-start-column="25" selection-end-line="161" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithm/链表/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithm/链表/_141_环形链表.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="23" lean-forward="true" selection-start-line="2" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithm/链表/_83_删除排序链表中的重复元素.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" selection-start-line="2" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithm/链表/_203_移除链表元素.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" selection-start-line="5" selection-end-line="42" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithm/链表/_206_反转链表.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithm/链表/_237_删除链表中的节点.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="8" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithm/链表/_876_链表的中间结点.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
