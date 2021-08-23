@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		04964E3D26A6C5E600896762 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04964E3C26A6C5E600896762 /* main.swift */; };
-		04964E4626A6C66500896762 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04964E4526A6C66500896762 /* LinkedList.swift */; };
+		04964E4626A6C66500896762 /* SignleLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04964E4526A6C66500896762 /* SignleLinkedList.swift */; };
 		04964E4B26A71A4800896762 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04964E4A26A71A4800896762 /* Person.swift */; };
+		04BDB68126CFADBF00D5FC4A /* CycleLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BDB68026CFADBF00D5FC4A /* CycleLinkedList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,8 +28,9 @@
 /* Begin PBXFileReference section */
 		04964E3926A6C5E600896762 /* Hello Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Hello Algorithm"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04964E3C26A6C5E600896762 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		04964E4526A6C66500896762 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		04964E4526A6C66500896762 /* SignleLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignleLinkedList.swift; sourceTree = "<group>"; };
 		04964E4A26A71A4800896762 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		04BDB68026CFADBF00D5FC4A /* CycleLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleLinkedList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +73,8 @@
 		04964E4426A6C5FD00896762 /* 链表 */ = {
 			isa = PBXGroup;
 			children = (
-				04964E4526A6C66500896762 /* LinkedList.swift */,
+				04964E4526A6C66500896762 /* SignleLinkedList.swift */,
+				04BDB68026CFADBF00D5FC4A /* CycleLinkedList.swift */,
 			);
 			path = "链表";
 			sourceTree = "<group>";
@@ -142,8 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				04964E4B26A71A4800896762 /* Person.swift in Sources */,
-				04964E4626A6C66500896762 /* LinkedList.swift in Sources */,
+				04964E4626A6C66500896762 /* SignleLinkedList.swift in Sources */,
 				04964E3D26A6C5E600896762 /* main.swift in Sources */,
+				04BDB68126CFADBF00D5FC4A /* CycleLinkedList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

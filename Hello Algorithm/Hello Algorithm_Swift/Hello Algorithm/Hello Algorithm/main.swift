@@ -75,5 +75,38 @@ func testLinkedList()  {
     
 }
 
-testLinkedList()
+//testLinkedList()
+
+
+func testCycleLinkedList()  {
+    let list = CycleLinkedList<String>()
+    list.add(element: "11")
+    list.add(element: "22")
+    list.add(element: "33")
+    list.add(element: "44")
+    list.add(element: "55")
+    list.add(element: "00", index: 0)
+    list.add(element: "##", index: 6)
+    print(list)
+    print(list.remove(index: 0))
+    
+    print(list.remove(index: list.size() - 1))
+    print(list)
+    
+    print("index of 11:\(list.indexOf(element: "11"))")
+    print("index of ##:\(list.indexOf(element: "##"))")
+    print("index of 55:\(list.indexOf(element: "55"))")
+    print("get of 0:\(list.get(index: 0))")
+    print("get of 4:\(list.get(index: 4))")
+    print("get of 2:\(list.get(index: 2))")
+    print("remove 2:\(list.remove(index: 2))")
+    print(list)
+    
+    print("set 0 : \(list.set(index: 0, element: "??"))")
+    print("set \(list.size() - 1) : \(list.set(index: list.size() - 1, element: "!!"))")
+    print("set 2 : \(list.set(index: 2, element: "【】"))")
+    print(list)
+}
+
+testCycleLinkedList()
 

@@ -1,0 +1,7 @@
+@interface NSTimer : NSObject
+
+
+
+
+
+@end

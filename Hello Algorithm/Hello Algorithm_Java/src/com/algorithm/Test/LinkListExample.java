@@ -1,61 +1,62 @@
 package com.algorithm.Test;
 
-import com.algorithm.List.ArrayList;
-import com.algorithm.List.LinkedList;
-import sun.awt.image.ImageWatched;
+import com.algorithm.List.CycleLinkedList;
 
 public class LinkListExample {
 
     public static void main(String[] args) {
-        LinkedList<Integer> linkedList = new LinkedList<>();
-        linkedList.add(10);
-        linkedList.add(50);
-        linkedList.add(60);
-        linkedList.add(80);
-        linkedList.add(100);
-        linkedList.add(-20);
-        linkedList.add(0,12);
-        linkedList.add(7,99);
-        System.out.println(linkedList);
-
-        linkedList.remove(0);
-        System.out.println(linkedList);
-
-        linkedList.remove(linkedList.size() - 1);
-        System.out.println(linkedList);
-
-        linkedList.clear();
-        System.out.println(linkedList);
-
-        linkedList.add(11);
-        linkedList.add(22);
-        linkedList.add(33);
-        linkedList.add(44);
-        linkedList.add(55);
-        System.out.println(linkedList);
-
-        linkedList.set(2,20);
-        System.out.println(linkedList);
-
-        linkedList.set(0,0);
-        System.out.println(linkedList);
-        linkedList.set(4,10);
-        System.out.println(linkedList);
-
-
-        System.out.println("size = " + linkedList.size());
-
-
-        System.out.println(linkedList.indexOf(-2));
-
-        System.out.println(linkedList.get(4));
-
-        System.out.println(linkedList.contains(22));
-
-        System.out.println(linkedList.contains(99));
-
-        linkedList.clear();
-
-        System.out.println("is empty :" + linkedList.isEmpty());
+        CycleLinkedList<Integer> list = new CycleLinkedList<>();
+        list.add(10);
+        System.out.println(list);
+        list.remove(0);
+        System.out.println(list);
+        list.add(50);
+        list.add(60);
+        list.add(80);
+        list.add(100);
+        list.add(-20);
+        System.out.println(list);
+        list.add(-2,0);
+       // list.add(77,7);
+        System.out.println(list);
+//
+//        list.remove(0);
+//        System.out.println(list);
+//
+//        list.remove(list.size() - 1);
+//        System.out.println(list);
+//
+//        list.clear();
+//        System.out.println(list);
+//
+//        list.add(11);
+//        list.add(22);
+//        list.add(33);
+//        list.add(44);
+//        list.add(55);
+//        System.out.println(list);
+//
+//        list.set(2,20);
+//        System.out.println(list);
+//
+//        list.set(0,0);
+//        System.out.println(list);
+//        list.set(4,10);
+//        System.out.println(list);
+//
+//
+//        System.out.println("size = " + list.size());
+//
+//        System.out.println(list.indexOf(-2));
+//
+//        System.out.println(list.get(4));
+//
+//        System.out.println(list.contains(22));
+//
+//        System.out.println(list.contains(99));
+//
+//        list.clear();
+//
+//        System.out.println("is empty :" + list.isEmpty());
     }
 }

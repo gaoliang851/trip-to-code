@@ -23,18 +23,18 @@
 }
 
 - (void)dealloc {
-    GLLog(@"%@ -- dealloc",self.name);
+    NSLog(@"%@ -- dealloc",self.name);
 }
 
 - (NSString *)description {
-    return [NSString stringWithFormat:@"Person(%@)",self.name];
+    return self.name;
 }
 
 - (BOOL)isEqual:(id)other
 {
     if ([other isMemberOfClass:[self class]]) {
         Person *otherPerson = other;
-        if ([otherPerson.name isEqual:self.name]) {
+        if ([otherPerson.name isEqualToString:self.name]) {
             return YES;
         }
     }

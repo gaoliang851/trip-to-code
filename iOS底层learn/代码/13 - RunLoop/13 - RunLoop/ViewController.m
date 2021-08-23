@@ -6,6 +6,7 @@
 //
 
 #import "ViewController.h"
+#import "ViewController1.h"
 
 @interface ViewController ()
 
@@ -48,23 +49,39 @@ void observerCallBack(CFRunLoopObserverRef observer, CFRunLoopActivity activity,
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    __weak typeof(self) weakSelf = self;
+    //指定在runloopMode下执行block任务
+    CFRunLoopPerformBlock(CFRunLoopGetMain(),
+                          UITrackingRunLoopMode,
+                          ^{
+        
+        __strong typeof(self) strongSelf = weakSelf;
+        //do something
+    });
     
+    //NSTimer *timer;
     
-    CFRunLoopObserverGetActivities(<#CFRunLoopObserverRef observer#>)
-    
-    CFRunLoopObserverInvalidate(<#CFRunLoopObserverRef observer#>);
-    
+//    [self performSelector:@selector(test1) withObject:nil afterDelay:5 inModes:@[NSRunLoopCommonModes]];
+        
+}
+- (IBAction)pushAction:(id)sender {
+}
+- (IBAction)pushAction:(id)sender {
+}
+- (IBAction)pushAction:(id)sender {
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [self presentViewController:[[ViewController1 alloc] init] animated:YES completion:nil];
 }
 
 - (void) test1 {
     /// 1. 创建observer
-    
     // 第一个参数：分配存储空间,使用默认的即可：kCFAllocatorDefault
     // 第二个参数：要监听的状态（kCFRunLoopAllActivities）所有的状态
     // 第三个参数：是否持续监听
     // 第四个参数：优先级,填0即可
     // 第五个参数：回调,CFRunLoopObserverCallBack类型,
-    // typedef void (*CFRunLoopObserverCallBack)(CFRunLoopObserverRef observer, CFRunLoopActivity activity, void *info);
     // 第六个参数：context,回调传参，可以NULL
     CFRunLoopObserverRef observerRef = CFRunLoopObserverCreate(kCFAllocatorDefault,
                                                                kCFRunLoopAllActivities,
@@ -120,8 +137,7 @@ void observerCallBack(CFRunLoopObserverRef observer, CFRunLoopActivity activity,
         }
     });
     
-    /// 2.将observer添加到RunLoop中,
-    // kCFRunLoopCommonModes默认包括kCFRunLoopDeaultMode、UITrackingRunLoopMode
+    /// 2.将observer添加到RunLoop中
     CFRunLoopAddObserver(CFRunLoopGetMain(),
                          observerRef,
                          kCFRunLoopCommonModes);

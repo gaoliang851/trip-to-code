@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04964E2A26A6A47800896762 /* GLLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 04964E2926A6A47800896762 /* GLLinkedList.m */; };
-		04964E2E26A6A69600896762 /* GLLinkedListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 04964E2D26A6A69600896762 /* GLLinkedListNode.m */; };
+		04964E2A26A6A47800896762 /* GLSignleLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 04964E2926A6A47800896762 /* GLSignleLinkedList.m */; };
+		04964E2E26A6A69600896762 /* GLSignleLinkedListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 04964E2D26A6A69600896762 /* GLSignleLinkedListNode.m */; };
+		04BDB67C26CF913F00D5FC4A /* GLCycleLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDB67B26CF913F00D5FC4A /* GLCycleLinkedList.m */; };
 		04D9EDBC26397349005E6750 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D9EDBB26397349005E6750 /* main.m */; };
 		04D9EDC62639737A005E6750 /* GLArrayList.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D9EDC52639737A005E6750 /* GLArrayList.m */; };
 		04D9EDCE263A9314005E6750 /* GLListIndexOutOfBoundsException.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D9EDCD263A9314005E6750 /* GLListIndexOutOfBoundsException.m */; };
@@ -29,10 +30,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		04964E2826A6A47800896762 /* GLLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLLinkedList.h; sourceTree = "<group>"; };
-		04964E2926A6A47800896762 /* GLLinkedList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLLinkedList.m; sourceTree = "<group>"; };
-		04964E2C26A6A69600896762 /* GLLinkedListNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLLinkedListNode.h; sourceTree = "<group>"; };
-		04964E2D26A6A69600896762 /* GLLinkedListNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLLinkedListNode.m; sourceTree = "<group>"; };
+		04964E2826A6A47800896762 /* GLSignleLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLSignleLinkedList.h; sourceTree = "<group>"; };
+		04964E2926A6A47800896762 /* GLSignleLinkedList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLSignleLinkedList.m; sourceTree = "<group>"; };
+		04964E2C26A6A69600896762 /* GLSignleLinkedListNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLSignleLinkedListNode.h; sourceTree = "<group>"; };
+		04964E2D26A6A69600896762 /* GLSignleLinkedListNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLSignleLinkedListNode.m; sourceTree = "<group>"; };
+		04BDB67A26CF913F00D5FC4A /* GLCycleLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLCycleLinkedList.h; sourceTree = "<group>"; };
+		04BDB67B26CF913F00D5FC4A /* GLCycleLinkedList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLCycleLinkedList.m; sourceTree = "<group>"; };
 		04D9EDB826397349005E6750 /* Hello Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Hello Algorithm"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D9EDBB26397349005E6750 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04D9EDC42639737A005E6750 /* GLArrayList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLArrayList.h; sourceTree = "<group>"; };
@@ -60,10 +63,12 @@
 		04964E2626A63F8900896762 /* 链表 */ = {
 			isa = PBXGroup;
 			children = (
-				04964E2826A6A47800896762 /* GLLinkedList.h */,
-				04964E2926A6A47800896762 /* GLLinkedList.m */,
-				04964E2C26A6A69600896762 /* GLLinkedListNode.h */,
-				04964E2D26A6A69600896762 /* GLLinkedListNode.m */,
+				04964E2826A6A47800896762 /* GLSignleLinkedList.h */,
+				04964E2926A6A47800896762 /* GLSignleLinkedList.m */,
+				04964E2C26A6A69600896762 /* GLSignleLinkedListNode.h */,
+				04964E2D26A6A69600896762 /* GLSignleLinkedListNode.m */,
+				04BDB67A26CF913F00D5FC4A /* GLCycleLinkedList.h */,
+				04BDB67B26CF913F00D5FC4A /* GLCycleLinkedList.m */,
 			);
 			path = "链表";
 			sourceTree = "<group>";
@@ -183,9 +188,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				04D9EDC62639737A005E6750 /* GLArrayList.m in Sources */,
-				04964E2A26A6A47800896762 /* GLLinkedList.m in Sources */,
+				04964E2A26A6A47800896762 /* GLSignleLinkedList.m in Sources */,
 				04D9EDCE263A9314005E6750 /* GLListIndexOutOfBoundsException.m in Sources */,
-				04964E2E26A6A69600896762 /* GLLinkedListNode.m in Sources */,
+				04964E2E26A6A69600896762 /* GLSignleLinkedListNode.m in Sources */,
+				04BDB67C26CF913F00D5FC4A /* GLCycleLinkedList.m in Sources */,
 				04D9EDD9263AB428005E6750 /* GLLog.m in Sources */,
 				04D9EDD3263AAAF1005E6750 /* Person.m in Sources */,
 				04D9EDBC26397349005E6750 /* main.m in Sources */,
