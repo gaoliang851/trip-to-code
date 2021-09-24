@@ -34217,14 +34217,16 @@ typedef void(*Block)(void);
 struct __main_block_impl_0 {
   struct __block_impl impl;
   struct __main_block_desc_0* Desc;
-  Person *__weak weakP;
-  __main_block_impl_0(void *fp, struct __main_block_desc_0 *desc, Person *__weak _weakP, int flags=0) : weakP(_weakP) {
-    impl.isa = &_NSConcreteStackBlock;
-    impl.Flags = flags;
-    impl.FuncPtr = fp;
-    Desc = desc;
-  }
+  Person *p; //这里生成了p的指针，强引用
 };
+
+struct __main_block_impl_0 {
+  struct __block_impl impl;
+  struct __main_block_desc_0* Desc;
+  Person *__weak weakP;//p的弱引用
+};
+
+
 static void __main_block_func_0(struct __main_block_impl_0 *__cself) {
   Person *__weak weakP = __cself->weakP; // bound by copy
 

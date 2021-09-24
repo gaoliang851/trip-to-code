@@ -29,9 +29,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    GLBaseDemo *demo = [[SemaphoreDemo alloc] init];
-//    [demo otherTest];
-    [demo moneyTest];
+    GLBaseDemo *demo = [[MutexConditionDemo alloc] init];
+    [demo otherTest];
+//    [demo moneyTest];
 //    [demo ticketTest];
 }
 

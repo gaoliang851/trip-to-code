@@ -10,8 +10,9 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        GLPerson *person = [[GLPerson alloc] init];
-        [person setValue:@10 forKey:@"age"];
+//        GLPerson *person = [[GLPerson alloc] init];
+        GLPerson *person1 = [GLPerson new];
+//        [person setValue:@10 forKey:@"age"];
         
         NSLog(@"---");
     }

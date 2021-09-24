@@ -11,6 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface GLPerson : NSObject
 @property (nonatomic,assign) int age;
+@property (nonatomic,copy) NSString *name;
 @end
 
 NS_ASSUME_NONNULL_END

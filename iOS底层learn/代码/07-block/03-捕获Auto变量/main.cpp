@@ -34193,24 +34193,44 @@ struct NSUUID_IMPL {
 #pragma clang assume_nonnull end
 
 
+// block的底层结构
 struct __main_block_impl_0 {
   struct __block_impl impl;
   struct __main_block_desc_0* Desc;
   int age; //这里多了一个age的成员
-    //构造函数也多了age的参数
-  __main_block_impl_0(void *fp, struct __main_block_desc_0 *desc, int _age, int flags=0) : age(_age) {
+  //构造函数也多了age的参数
+  __main_block_impl_0(void *fp,
+                      struct __main_block_desc_0 *desc,
+                      int _age, int flags=0) : age(_age) {
     impl.isa = &_NSConcreteStackBlock;
     impl.Flags = flags;
     impl.FuncPtr = fp;
     Desc = desc;
   }
 };
-static void __main_block_func_0(struct __main_block_impl_0 *__cself) {
-    //获取block中内部的age成员的值
-  int age = __cself->age; // bound by copy
 
-            NSLog((NSString *)&__NSConstantStringImpl__var_folders_mx_tg911gc51gdgzk_mgp7nh9yw0000gn_T_main_be8a00_mi_0,age);
-        }
+// block的具体实现
+static void __main_block_func_0(struct __main_block_impl_0 *__cself) {
+  //获取block中内部的age成员的值
+  int age = __cself->age; // bound by copy
+  //NSLog()
+}
+
+
+int main(int argc, const char * argv[]) {
+    /* @autoreleasepool */
+    int age = 10;
+    //这里将age=10，传入了构造函数中，block内部的age = 10
+    void (*block)(void) = &__main_block_impl_0(__main_block_func_0,
+                                               &__main_block_desc_0_DATA,
+                                               age));
+    age = 20;
+    //执行时，block内部使用了之前传入的age = 10的值。
+    block->FuncPtr(block);
+    
+    return 0;
+}
+
 
 static struct __main_block_desc_0 {
   size_t reserved;
@@ -34223,7 +34243,7 @@ int main(int argc, const char * argv[]) {
         void (*block)(void) = &__main_block_impl_0(__main_block_func_0, &__main_block_desc_0_DATA, age));
         age = 20;
         //执行时，block内部使用了之前传入的age = 10的值。
-       block->FuncPtr(block);
+        block->FuncPtr(block);
     }
     return 0;
 }

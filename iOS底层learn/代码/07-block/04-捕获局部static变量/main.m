@@ -25,3 +25,16 @@ int main(int argc, const char * argv[]) {
     }
     return 0;
 }
+
+
+int main(int argc, const char * argv[]) {
+    @autoreleasepool {
+        static int weight = 20;
+        void(^block)(void) = ^(void){
+            NSLog(@"weight is %d",weight);
+        };
+        weight = 40;
+        block(); // weight is 40
+    }
+    return 0;
+}

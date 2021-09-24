@@ -2,175 +2,99 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cf87265-b32c-4c50-98ad-d504909fa43e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/algorithm/List/CycleLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hello Algorithm_OC/Hello Algorithm/Hello Algorithm/链表/GLCycleLinkedList.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hello Algorithm_OC/Hello Algorithm/Hello Algorithm/链表/GLCycleLinkedList.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hello Algorithm_Swift/Hello Algorithm/Hello Algorithm/链表/CycleLinkedList.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Hello LeetCode/LeetCodeBook-Java/src/com/algorithm/链表/_138_复制带随机指针的链表.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/13 - RunLoop/13 - RunLoop/NSTimer+Addtion.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/13 - RunLoop/13 - RunLoop/NSTimer+Addtion.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/13 - RunLoop/13 - RunLoop/NSTimer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/13 - RunLoop/13 - RunLoop/ViewController1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/13 - RunLoop/13 - RunLoop/ViewController1.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/13 - RunLoop/线程保活/AppDelegate.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/13 - RunLoop/线程保活/AppDelegate.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/13 - RunLoop/线程保活/Assets.xcassets/AccentColor.colorset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/13 - RunLoop/线程保活/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/13 - RunLoop/线程保活/Assets.xcassets/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/13 - RunLoop/线程保活/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/13 - RunLoop/线程保活/Base.lproj/Main.storyboard" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/13 - RunLoop/线程保活/GLThread.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/13 - RunLoop/线程保活/GLThread.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/13 - RunLoop/线程保活/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/13 - RunLoop/线程保活/SceneDelegate.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/13 - RunLoop/线程保活/SceneDelegate.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/13 - RunLoop/线程保活/SecondViewController.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/13 - RunLoop/线程保活/SecondViewController.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/13 - RunLoop/线程保活/ViewController.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/13 - RunLoop/线程保活/ViewController.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/13 - RunLoop/线程保活/main.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/14-多线程.xcodeproj/project.pbxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/14-多线程.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/14-多线程.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/14-多线程/AppDelegate.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/14-多线程/AppDelegate.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/14-多线程/Assets.xcassets/AccentColor.colorset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/14-多线程/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/14-多线程/Assets.xcassets/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/14-多线程/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/14-多线程/Base.lproj/Main.storyboard" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/14-多线程/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/14-多线程/SceneDelegate.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/14-多线程/SceneDelegate.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/14-多线程/ViewController.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/14-多线程/ViewController.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/14-多线程/main.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/GCD/AppDelegate.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/GCD/AppDelegate.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/GCD/Assets.xcassets/AccentColor.colorset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/GCD/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/GCD/Assets.xcassets/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/GCD/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/GCD/Base.lproj/Main.storyboard" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/GCD/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/GCD/SceneDelegate.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/GCD/SceneDelegate.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/GCD/ViewController.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/GCD/ViewController.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/GCD/main.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/死锁问题/AppDelegate.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/死锁问题/AppDelegate.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/死锁问题/Assets.xcassets/AccentColor.colorset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/死锁问题/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/死锁问题/Assets.xcassets/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/死锁问题/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/死锁问题/Base.lproj/Main.storyboard" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/死锁问题/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/死锁问题/SceneDelegate.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/死锁问题/SceneDelegate.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/死锁问题/ViewController.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/死锁问题/ViewController.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/死锁问题/main.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/读写安全/AppDelegate.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/读写安全/AppDelegate.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/读写安全/Assets.xcassets/AccentColor.colorset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/读写安全/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/读写安全/Assets.xcassets/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/读写安全/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/读写安全/Base.lproj/Main.storyboard" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/读写安全/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/读写安全/SceneDelegate.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/读写安全/SceneDelegate.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/读写安全/ViewController.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/读写安全/ViewController.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/读写安全/main.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/锁/AppDelegate.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/锁/AppDelegate.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/锁/Assets.xcassets/AccentColor.colorset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/锁/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/锁/Assets.xcassets/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/锁/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/锁/Base.lproj/Main.storyboard" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/锁/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/锁/Lock/GLBaseDemo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/锁/Lock/GLBaseDemo.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/锁/Lock/MutexConditionDemo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/锁/Lock/MutexConditionDemo.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/锁/Lock/MutexDemo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/锁/Lock/MutexDemo.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/锁/Lock/MutexDemo2.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/锁/Lock/MutexDemo2.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/锁/Lock/NSConditionDemo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/锁/Lock/NSConditionDemo.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/锁/Lock/NSConditionLockDemo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/锁/Lock/NSConditionLockDemo.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/锁/Lock/NSLockDemo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/锁/Lock/NSLockDemo.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/锁/Lock/NSRecursiveLockDemo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/锁/Lock/NSRecursiveLockDemo.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/锁/Lock/OSSpinLockDemo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/锁/Lock/OSSpinLockDemo.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/锁/Lock/OSUnFairLockDemo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/锁/Lock/OSUnFairLockDemo.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/锁/Lock/SemaphoreDemo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/锁/Lock/SemaphoreDemo.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/锁/Lock/SerialQueueDemo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/锁/Lock/SerialQueueDemo.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/锁/SceneDelegate.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/锁/SceneDelegate.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/锁/ViewController.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/锁/ViewController.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/锁/main.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/队列组/AppDelegate.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/队列组/AppDelegate.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/队列组/Assets.xcassets/AccentColor.colorset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/队列组/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/队列组/Assets.xcassets/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/队列组/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/队列组/Base.lproj/Main.storyboard" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/队列组/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/队列组/SceneDelegate.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/队列组/SceneDelegate.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/队列组/ViewController.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/队列组/ViewController.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/队列组/main.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/面试题/AppDelegate.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/面试题/AppDelegate.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/面试题/Assets.xcassets/AccentColor.colorset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/面试题/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/面试题/Assets.xcassets/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/面试题/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/面试题/Base.lproj/Main.storyboard" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/面试题/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/面试题/SceneDelegate.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/面试题/SceneDelegate.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/面试题/ViewController.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/面试题/ViewController.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/14-多线程/面试题/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/List/SignleCycleLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/Test/StackTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/stack/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Algorithm_OC/Hello Algorithm/Hello Algorithm/栈/GLStack.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Algorithm_OC/Hello Algorithm/Hello Algorithm/栈/GLStack.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Algorithm_OC/Hello Algorithm/Hello Algorithm/链表/GLCycleSignleLinkedList.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Algorithm_OC/Hello Algorithm/Hello Algorithm/链表/GLCycleSignleLinkedList.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Algorithm_Swift/Hello Algorithm/Hello Algorithm/栈/Stack.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Algorithm_Swift/Hello Algorithm/Hello Algorithm/链表/SignleCycleLinkedList.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/01-block的基本使用/main.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/12 - Runtime常用API/方法实现交换示例/NSObject+Test.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/12 - Runtime常用API/方法实现交换示例/NSObject+Test.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/01-定时器/GLTimer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/01-定时器/GLTimer.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/01-定时器/NSTimer+Test.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/01-定时器/NSTimer+Test.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/04 - MRC/GLDog.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/04 - MRC/GLDog.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/04 - MRC/GLPerson.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/04 - MRC/GLPerson.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/04 - MRC/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/06 - 自定义对象支持copy/GLDog.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/06 - 自定义对象支持copy/GLDog.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/06 - 自定义对象支持copy/GLPerson.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/06 - 自定义对象支持copy/GLPerson.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/06 - 自定义对象支持copy/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/07 - weak/GLPerson.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/07 - weak/GLPerson.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/07 - weak/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/08 - GCD定时器/AppDelegate.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/08 - GCD定时器/AppDelegate.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/08 - GCD定时器/Assets.xcassets/AccentColor.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/08 - GCD定时器/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/08 - GCD定时器/Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/08 - GCD定时器/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/08 - GCD定时器/Base.lproj/Main.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/08 - GCD定时器/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/08 - GCD定时器/SceneDelegate.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/08 - GCD定时器/SceneDelegate.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/08 - GCD定时器/ViewController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/08 - GCD定时器/ViewController.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/08 - GCD定时器/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/09 - test/AppDelegate.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/09 - test/AppDelegate.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/09 - test/Assets.xcassets/AccentColor.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/09 - test/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/09 - test/Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/09 - test/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/09 - test/Base.lproj/Main.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/09 - test/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/09 - test/SceneDelegate.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/09 - test/SceneDelegate.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/09 - test/ViewController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/09 - test/ViewController.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/09 - test/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/MacTest/main.m" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hello Algorithm_Java/com/algorithm/List/LinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hello Algorithm_Java/com/algorithm/List/LinkedList.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Hello Algorithm_Java/com/algorithm/Test/ArrayListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hello Algorithm_Java/com/algorithm/Test/ArrayListTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hello Algorithm_Java/com/algorithm/Test/LinkListExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hello Algorithm_Java/com/algorithm/Test/LinkListExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/algorithm/List/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/List/SignleLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/algorithm/Test/LinkListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/Test/LinkListExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/algorithm/Test/ArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/Test/ArrayListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hello Algorithm_OC/Hello Algorithm/Hello Algorithm.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Hello Algorithm_OC/Hello Algorithm/Hello Algorithm.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hello Algorithm_OC/Hello Algorithm/Hello Algorithm/Test/Person.m" beforeDir="false" afterPath="$PROJECT_DIR$/../Hello Algorithm_OC/Hello Algorithm/Hello Algorithm/Test/Person.m" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hello Algorithm_OC/Hello Algorithm/Hello Algorithm/main.m" beforeDir="false" afterPath="$PROJECT_DIR$/../Hello Algorithm_OC/Hello Algorithm/Hello Algorithm/main.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hello Algorithm_OC/Hello Algorithm/Hello Algorithm/utils/GLLog.m" beforeDir="false" afterPath="$PROJECT_DIR$/../Hello Algorithm_OC/Hello Algorithm/Hello Algorithm/utils/GLLog.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hello Algorithm_OC/Hello Algorithm/Hello Algorithm/链表/GLLinkedList.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Hello Algorithm_OC/Hello Algorithm/Hello Algorithm/链表/GLSignleLinkedList.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hello Algorithm_OC/Hello Algorithm/Hello Algorithm/链表/GLLinkedList.m" beforeDir="false" afterPath="$PROJECT_DIR$/../Hello Algorithm_OC/Hello Algorithm/Hello Algorithm/链表/GLSignleLinkedList.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hello Algorithm_OC/Hello Algorithm/Hello Algorithm/链表/GLLinkedListNode.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Hello Algorithm_OC/Hello Algorithm/Hello Algorithm/链表/GLSignleLinkedListNode.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hello Algorithm_OC/Hello Algorithm/Hello Algorithm/链表/GLLinkedListNode.m" beforeDir="false" afterPath="$PROJECT_DIR$/../Hello Algorithm_OC/Hello Algorithm/Hello Algorithm/链表/GLSignleLinkedListNode.m" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hello Algorithm_Swift/Hello Algorithm/Hello Algorithm.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Hello Algorithm_Swift/Hello Algorithm/Hello Algorithm.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hello Algorithm_Swift/Hello Algorithm/Hello Algorithm/链表/LinkedList.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../Hello Algorithm_Swift/Hello Algorithm/Hello Algorithm/链表/SignleLinkedList.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Hello LeetCode/LeetCodeBook-Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Hello LeetCode/LeetCodeBook-Java/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Hello LeetCode/LeetCodeBook-Java/out/production/LeetCodeBook-Java/META-INF/LeetCodeBook-Java.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Hello LeetCode/LeetCodeBook-Java/out/production/LeetCodeBook-Java/com/algorithm/链表/_206_反转链表.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Hello LeetCode/LeetCodeBook-Java/out/production/LeetCodeBook-Java/com/algorithm/链表/_206_反转链表.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../iOS底层learn/代码/13 - RunLoop/13 - RunLoop.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/13 - RunLoop/13 - RunLoop.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../iOS底层learn/代码/13 - RunLoop/13 - RunLoop/Base.lproj/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/13 - RunLoop/13 - RunLoop/Base.lproj/Main.storyboard" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../iOS底层learn/代码/13 - RunLoop/13 - RunLoop/ViewController.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/13 - RunLoop/13 - RunLoop/ViewController.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Algorithm_Swift/Hello Algorithm/Hello Algorithm/main.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../Hello Algorithm_Swift/Hello Algorithm/Hello Algorithm/main.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../iOS底层learn/代码/04-KVO&amp;KVC/04-KVO&amp;KVC/ViewController.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/04-KVO&amp;KVC/04-KVO&amp;KVC/ViewController.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../iOS底层learn/代码/04-KVO&amp;KVC/KVO/GLPerson.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/04-KVO&amp;KVC/KVO/GLPerson.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../iOS底层learn/代码/04-KVO&amp;KVC/KVO/main.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/04-KVO&amp;KVC/KVO/main.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/01-block的基本使用/main.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/02-block的本质/main1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/02-block的本质/main1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/03-捕获Auto变量/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/03-捕获Auto变量/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/04-捕获局部static变量/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/04-捕获局部static变量/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/04-捕获局部static变量/main.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/04-捕获局部static变量/main.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/05-捕获全局变量/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/05-捕获全局变量/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/05-捕获全局变量/main.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/05-捕获全局变量/main.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/07-block.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/07-block.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/09-对象类型的auto变量/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/09-对象类型的auto变量/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/09-对象类型的auto变量/main.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/09-对象类型的auto变量/main.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/10-__block修饰符/GLPerson.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/10-__block修饰符/GLPerson.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/10-__block修饰符/GLPerson.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/10-__block修饰符/GLPerson.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/10-__block修饰符/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/10-__block修饰符/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/10-__block修饰符/main.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/07-block/10-__block修饰符/main.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../iOS底层learn/代码/10-objc_msgSend/动态方法解析/GLPerson.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/10-objc_msgSend/动态方法解析/GLPerson.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../iOS底层learn/代码/10-objc_msgSend/动态方法解析/main.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/10-objc_msgSend/动态方法解析/main.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../iOS底层learn/代码/10-objc_msgSend/消息转发/GLPerson.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/10-objc_msgSend/消息转发/GLPerson.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../iOS底层learn/代码/12 - Runtime常用API/12 - Runtime常用API.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/12 - Runtime常用API/12 - Runtime常用API.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../iOS底层learn/代码/12 - Runtime常用API/12 - Runtime常用API/main.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/12 - Runtime常用API/12 - Runtime常用API/main.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../iOS底层learn/代码/12 - Runtime常用API/方法实现交换示例/AppDelegate.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/12 - Runtime常用API/方法实现交换示例/AppDelegate.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/01-定时器/GLProxys.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/01-定时器/GLProxys.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/01-定时器/ViewController.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/01-定时器/ViewController.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/01-定时器/main.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/01-定时器/main.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/15-内存管理.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../iOS底层learn/代码/15-内存管理/15-内存管理.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../iOS底层learn/脑图/Category的加载流程.mindnode/QuickLook/Preview.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../iOS底层learn/脑图/Category的加载流程.mindnode/QuickLook/Preview.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../iOS底层learn/脑图/Category的加载流程.mindnode/contents.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../iOS底层learn/脑图/Category的加载流程.mindnode/contents.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../iOS底层learn/脑图/Category的加载流程.mindnode/viewState.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../../iOS底层learn/脑图/Category的加载流程.mindnode/viewState.plist" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -184,11 +108,72 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/algorithm/List/CycleLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="98" column="27" lean-forward="true" selection-start-line="98" selection-start-column="27" selection-end-line="98" selection-end-column="27" />
+            <state relative-caret-position="401">
+              <caret line="97" column="13" selection-start-line="97" selection-start-column="13" selection-end-line="97" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/algorithm/Test/ArrayListTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-245">
+              <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/algorithm/Test/StackTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+              <folding>
+                <element signature="e#133#134#0" expanded="true" />
+                <element signature="e#160#161#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/algorithm/stack/Stack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+              <folding>
+                <element signature="e#143#144#0" expanded="true" />
+                <element signature="e#170#171#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
+                <element signature="e#529#530#0" expanded="true" />
+                <element signature="e#548#549#0" expanded="true" />
+                <element signature="e#623#624#0" expanded="true" />
+                <element signature="e#674#675#0" expanded="true" />
+                <element signature="e#738#739#0" expanded="true" />
+                <element signature="e#790#791#0" expanded="true" />
+                <element signature="e#847#848#0" expanded="true" />
+                <element signature="e#879#880#0" expanded="true" />
+                <element signature="e#920#921#0" expanded="true" />
+                <element signature="e#958#959#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/algorithm/List/SignleLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3360">
+              <caret line="146" column="5" selection-start-line="135" selection-start-column="4" selection-end-line="146" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -205,7 +190,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/algorithm/Test/LinkListExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
+            <state relative-caret-position="432">
               <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
             </state>
           </provider>
@@ -228,18 +213,21 @@
       <list>
         <option value="$PROJECT_DIR$/Hello Algorithm_Java.iml" />
         <option value="$PROJECT_DIR$/src/com/algorithm/List/ArrayList.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithm/Test/ArrayListTest.java" />
         <option value="$PROJECT_DIR$/src/com/algorithm/List/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/algorithm/List/SignleLinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/algorithm/List/CycleLinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/algorithm/Test/LinkListExample.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithm/List/SignleCycleLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithm/Test/ArrayListTest.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithm/stack/Stack.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithm/Test/StackTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="877" />
+    <option name="height" value="832" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -272,7 +260,7 @@
               <item name="Hello Algorithm_Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="List" type="462c0819:PsiDirectoryNode" />
+              <item name="stack" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Hello Algorithm_Java" type="b2602c69:ProjectViewProjectNode" />
@@ -317,7 +305,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinkListExample">
+  <component name="RunManager" selected="Application.StackTest">
     <configuration name="ArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.algorithm.Test.ArrayListTest" />
       <module name="Hello Algorithm_Java" />
@@ -354,15 +342,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.Test.StackTest" />
+      <module name="Hello Algorithm_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithm.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.ArrayListTest" />
       <item itemvalue="Application.LinkListExample" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.StackTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LinkListExample" />
+        <item itemvalue="Application.StackTest" />
         <item itemvalue="Application.ArrayListTest" />
+        <item itemvalue="Application.LinkListExample" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -381,11 +384,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="1" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="832" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.24076433" visible="true" weight="0.21459228" />
-      <window_info id="Structure" order="1" sideWeight="0.7592357" side_tool="true" visible="true" weight="0.21459228" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.46486485" visible="true" weight="0.3004292" />
+      <window_info active="true" id="Structure" order="1" sideWeight="0.53513515" side_tool="true" visible="true" weight="0.3004292" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -393,7 +395,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41401273" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.15405406" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5847134" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -462,25 +464,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithm/Test/ArrayListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-          <folding>
-            <element signature="e#140#141#0" expanded="true" />
-            <element signature="e#171#172#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/algorithm/List/SignleLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="155" column="28" selection-start-line="155" selection-start-column="28" selection-end-line="155" selection-end-column="28" />
-          <folding>
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="3360">
+          <caret line="146" column="5" selection-start-line="135" selection-start-column="4" selection-end-line="146" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -493,15 +480,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/algorithm/Test/LinkListExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
+        <state relative-caret-position="432">
           <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithm/List/SignleCycleLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+          <folding>
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/algorithm/List/CycleLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="98" column="27" lean-forward="true" selection-start-line="98" selection-start-column="27" selection-end-line="98" selection-end-column="27" />
+        <state relative-caret-position="401">
+          <caret line="97" column="13" selection-start-line="97" selection-start-column="13" selection-end-line="97" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithm/Test/ArrayListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-245">
+          <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithm/Test/StackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <element signature="e#133#134#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithm/stack/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding>
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#847#848#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

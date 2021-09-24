@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0436D0D026E75FC20081E745 /* SignleCycleLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0436D0CF26E75FC20081E745 /* SignleCycleLinkedList.swift */; };
+		0436D15826E9B1F90081E745 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0436D15726E9B1F90081E745 /* Stack.swift */; };
 		04964E3D26A6C5E600896762 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04964E3C26A6C5E600896762 /* main.swift */; };
 		04964E4626A6C66500896762 /* SignleLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04964E4526A6C66500896762 /* SignleLinkedList.swift */; };
 		04964E4B26A71A4800896762 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04964E4A26A71A4800896762 /* Person.swift */; };
@@ -26,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0436D0CF26E75FC20081E745 /* SignleCycleLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignleCycleLinkedList.swift; sourceTree = "<group>"; };
+		0436D15726E9B1F90081E745 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		04964E3926A6C5E600896762 /* Hello Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Hello Algorithm"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04964E3C26A6C5E600896762 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		04964E4526A6C66500896762 /* SignleLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignleLinkedList.swift; sourceTree = "<group>"; };
@@ -44,6 +48,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0436D15626E9B1D50081E745 /* 栈 */ = {
+			isa = PBXGroup;
+			children = (
+				0436D15726E9B1F90081E745 /* Stack.swift */,
+			);
+			path = "栈";
+			sourceTree = "<group>";
+		};
 		04964E3026A6C5E600896762 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +75,7 @@
 		04964E3B26A6C5E600896762 /* Hello Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				0436D15626E9B1D50081E745 /* 栈 */,
 				04964E4926A71A3700896762 /* Utils&Test */,
 				04964E4426A6C5FD00896762 /* 链表 */,
 				04964E3C26A6C5E600896762 /* main.swift */,
@@ -75,6 +88,7 @@
 			children = (
 				04964E4526A6C66500896762 /* SignleLinkedList.swift */,
 				04BDB68026CFADBF00D5FC4A /* CycleLinkedList.swift */,
+				0436D0CF26E75FC20081E745 /* SignleCycleLinkedList.swift */,
 			);
 			path = "链表";
 			sourceTree = "<group>";
@@ -146,7 +160,9 @@
 			files = (
 				04964E4B26A71A4800896762 /* Person.swift in Sources */,
 				04964E4626A6C66500896762 /* SignleLinkedList.swift in Sources */,
+				0436D0D026E75FC20081E745 /* SignleCycleLinkedList.swift in Sources */,
 				04964E3D26A6C5E600896762 /* main.swift in Sources */,
+				0436D15826E9B1F90081E745 /* Stack.swift in Sources */,
 				04BDB68126CFADBF00D5FC4A /* CycleLinkedList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

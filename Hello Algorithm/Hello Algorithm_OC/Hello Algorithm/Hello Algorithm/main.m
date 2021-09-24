@@ -11,15 +11,18 @@
 #import "Person.h"
 #import "GLSignleLinkedList.h"
 #import "GLCycleLinkedList.h"
+#import "GLCycleSignleLinkedList.h"
 
 void testArrayList(void);
 void testLinkedList(void);
 void testCycleLinkedList(void);
+void testCycleSignledList(void);
 
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        testCycleLinkedList();
+//        testCycleLinkedList();
+        testCycleSignledList();
         
         //GLLog(@"----");
     }
@@ -183,6 +186,38 @@ void testCycleLinkedList() {
     GLLog(@"isEmpty = %d",[arrayList isEmpty]);
 //
     GLLog(@"end");
+}
+
+
+void testCycleSignledList(void) {
+    GLCycleSignleLinkedList <NSNumber *>*list  = [[GLCycleSignleLinkedList alloc] init];
+    
+    [list addElement:@0];
+    [list addElement:@1];
+    [list addElement:@2];
+    [list addElement:@3];
+    [list addElement:@4];
+    [list addElement:@5]; // [0,1,2,3,4,5]
+    
+    [list addElement:@-1 atIndex:0];
+    [list addElement:@99 atIndex:[list size]]; // [-1,0,1,2,3,4,5,99]
+    
+    [list removeAtIndex:0];// [0,1,2,3,4,5,99]
+    [list removeAtIndex:[list size] - 1];// [0,1,2,3,4,5]
+    
+    [list setElement:@20 atIndex:0];
+    [list setElement:@30 atIndex:[list size] - 1];// [20,1,2,3,4,30]
+    
+    NSLog(@"%@",list);
+
+    NSLog(@"%d",[list indexOfElement:@20]);
+    NSLog(@"%@",[list getElementAtIndex:4]);
+    NSLog(@"%d",[list containsElement:@20]);
+    NSLog(@"%d",[list containsElement:@120]);
+    NSLog(@"%d",[list indexOfElement:@120]);
+    
+    [list clear];
+    NSLog(@"%d",[list isEmpty]);
 }
 
 

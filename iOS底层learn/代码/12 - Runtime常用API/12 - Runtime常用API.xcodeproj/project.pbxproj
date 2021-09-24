@@ -21,6 +21,7 @@
 		04964E0D26A5CA4500896762 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04964E0C26A5CA4500896762 /* main.m */; };
 		04964E1826A5CB4200896762 /* UIControl+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04964E1726A5CB4200896762 /* UIControl+Extension.m */; };
 		04964E2026A63C3D00896762 /* NSMutableArray+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04964E1F26A63C3D00896762 /* NSMutableArray+Extension.m */; };
+		04A20CD126E36C79006C76CF /* NSObject+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A20CD026E36C79006C76CF /* NSObject+Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -89,6 +90,8 @@
 		04964E1726A5CB4200896762 /* UIControl+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Extension.m"; sourceTree = "<group>"; };
 		04964E1E26A63C3D00896762 /* NSMutableArray+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Extension.h"; sourceTree = "<group>"; };
 		04964E1F26A63C3D00896762 /* NSMutableArray+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Extension.m"; sourceTree = "<group>"; };
+		04A20CCF26E36C79006C76CF /* NSObject+Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Test.h"; sourceTree = "<group>"; };
+		04A20CD026E36C79006C76CF /* NSObject+Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Test.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +209,8 @@
 				04964E1726A5CB4200896762 /* UIControl+Extension.m */,
 				04964E1E26A63C3D00896762 /* NSMutableArray+Extension.h */,
 				04964E1F26A63C3D00896762 /* NSMutableArray+Extension.m */,
+				04A20CCF26E36C79006C76CF /* NSObject+Test.h */,
+				04A20CD026E36C79006C76CF /* NSObject+Test.m */,
 			);
 			path = "方法实现交换示例";
 			sourceTree = "<group>";
@@ -402,6 +407,7 @@
 				04964E0D26A5CA4500896762 /* main.m in Sources */,
 				04964E1826A5CB4200896762 /* UIControl+Extension.m in Sources */,
 				04964DFF26A5CA4200896762 /* SceneDelegate.m in Sources */,
+				04A20CD126E36C79006C76CF /* NSObject+Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

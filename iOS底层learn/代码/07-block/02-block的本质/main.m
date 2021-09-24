@@ -18,3 +18,15 @@ int main(int argc, const char * argv[]) {
     }
     return 0;
 }
+ 
+extern struct __AtAutoreleasePool;
+
+void test() {
+    
+    {
+        void *atautoreleaseObj = AutoreleasePoolPage::push();
+        //do somethings
+        AutoreleasePoolPage::pop(atautoreleaseObj);
+    }
+}
+

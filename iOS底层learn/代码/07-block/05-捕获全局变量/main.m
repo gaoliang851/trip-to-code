@@ -7,19 +7,14 @@
 
 #import <Foundation/Foundation.h>
 
-int age_ = 10;
 static int weight_ = 10;
 
+int age_ = 10;//全局变量
 int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        void(^block)(void) = ^(void) {
-            NSLog(@"%d - %d",age_,weight_);
-        };
-        
-        age_ = 15;
-        weight_ = 25;
-        
-        block();//15 - 25
-    }
+    void(^block)(void) = ^(void) {
+        NSLog(@"%d",age_);
+    };
+    age_ = 15;
+    block();//15
     return 0;
 }

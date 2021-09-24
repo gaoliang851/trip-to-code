@@ -39,7 +39,6 @@
 
 - (void) __addObject {
     pthread_mutex_lock(&_mutex);
-    
     [self.data addObject:[[NSObject alloc] init]];
     NSLog(@"添加了元素");
     //激活一个等待该条件的线程,并且

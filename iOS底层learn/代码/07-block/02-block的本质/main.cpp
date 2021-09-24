@@ -95,8 +95,14 @@ extern "C" __declspec(dllimport) void * objc_autoreleasePoolPush(void);
 extern "C" __declspec(dllimport) void objc_autoreleasePoolPop(void *);
 
 struct __AtAutoreleasePool {
-  __AtAutoreleasePool() {atautoreleasepoolobj = objc_autoreleasePoolPush();}
-  ~__AtAutoreleasePool() {objc_autoreleasePoolPop(atautoreleasepoolobj);}
+  //构造函数
+  __AtAutoreleasePool() {
+      atautoreleasepoolobj = objc_autoreleasePoolPush();
+  }
+  //析造函数
+  ~__AtAutoreleasePool() {
+      objc_autoreleasePoolPop(atautoreleasepoolobj);
+  }
   void * atautoreleasepoolobj;
 };
 

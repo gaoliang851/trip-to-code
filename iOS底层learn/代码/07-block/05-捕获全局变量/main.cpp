@@ -34193,22 +34193,14 @@ struct NSUUID_IMPL {
 #pragma clang assume_nonnull end
 
 int age_ = 10;
-static int weight_ = 10;
-
-
 struct __main_block_impl_0 {
   struct __block_impl impl;
   struct __main_block_desc_0* Desc;
-  __main_block_impl_0(void *fp, struct __main_block_desc_0 *desc, int flags=0) {
-    impl.isa = &_NSConcreteStackBlock;
-    impl.Flags = flags;
-    impl.FuncPtr = fp;
-    Desc = desc;
-  }
 };
-static void __main_block_func_0(struct __main_block_impl_0 *__cself) {
-    //age_ 和 weight_ 都是直接访问
-    NSLog((NSString *)&__NSConstantStringImpl__var_folders_mx_tg911gc51gdgzk_mgp7nh9yw0000gn_T_main_20967f_mi_0,age_,weight_);
+static void __main_block_func_0(struct
+                                __main_block_impl_0 *__cself) {
+    //age_是直接访问
+    NSLog(@"",age_);
 }
 
 static struct __main_block_desc_0 {

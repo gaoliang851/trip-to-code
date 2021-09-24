@@ -44,6 +44,8 @@
     
     [self printInfoWithClass:object_getClass(self.person1)];
     
+    [self.person1 setValue:@(1) forKey:@""];
+    
     
     [self willChangeValueForKey:@"keyPath"];
     
@@ -52,6 +54,8 @@
     [self didChangeValueForKey:@"keyPath"];
     
     //内部调用observer的observeValueForKeyPath:ofObject:change:context:方法
+    
+
     
 }
 

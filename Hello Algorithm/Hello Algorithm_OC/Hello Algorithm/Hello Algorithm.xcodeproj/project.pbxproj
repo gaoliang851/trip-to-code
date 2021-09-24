@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0436D0C926E74EDA0081E745 /* GLCycleSignleLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0436D0C826E74EDA0081E745 /* GLCycleSignleLinkedList.m */; };
+		0436D15326E9AFA70081E745 /* GLStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 0436D15226E9AFA70081E745 /* GLStack.m */; };
 		04964E2A26A6A47800896762 /* GLSignleLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 04964E2926A6A47800896762 /* GLSignleLinkedList.m */; };
 		04964E2E26A6A69600896762 /* GLSignleLinkedListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 04964E2D26A6A69600896762 /* GLSignleLinkedListNode.m */; };
 		04BDB67C26CF913F00D5FC4A /* GLCycleLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDB67B26CF913F00D5FC4A /* GLCycleLinkedList.m */; };
@@ -30,6 +32,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0436D0C726E74EDA0081E745 /* GLCycleSignleLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLCycleSignleLinkedList.h; sourceTree = "<group>"; };
+		0436D0C826E74EDA0081E745 /* GLCycleSignleLinkedList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLCycleSignleLinkedList.m; sourceTree = "<group>"; };
+		0436D15126E9AFA70081E745 /* GLStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLStack.h; sourceTree = "<group>"; };
+		0436D15226E9AFA70081E745 /* GLStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLStack.m; sourceTree = "<group>"; };
 		04964E2826A6A47800896762 /* GLSignleLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLSignleLinkedList.h; sourceTree = "<group>"; };
 		04964E2926A6A47800896762 /* GLSignleLinkedList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLSignleLinkedList.m; sourceTree = "<group>"; };
 		04964E2C26A6A69600896762 /* GLSignleLinkedListNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLSignleLinkedListNode.h; sourceTree = "<group>"; };
@@ -60,6 +66,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0436D15026E9AF8E0081E745 /* 栈 */ = {
+			isa = PBXGroup;
+			children = (
+				0436D15126E9AFA70081E745 /* GLStack.h */,
+				0436D15226E9AFA70081E745 /* GLStack.m */,
+			);
+			path = "栈";
+			sourceTree = "<group>";
+		};
 		04964E2626A63F8900896762 /* 链表 */ = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +84,8 @@
 				04964E2D26A6A69600896762 /* GLSignleLinkedListNode.m */,
 				04BDB67A26CF913F00D5FC4A /* GLCycleLinkedList.h */,
 				04BDB67B26CF913F00D5FC4A /* GLCycleLinkedList.m */,
+				0436D0C726E74EDA0081E745 /* GLCycleSignleLinkedList.h */,
+				0436D0C826E74EDA0081E745 /* GLCycleSignleLinkedList.m */,
 			);
 			path = "链表";
 			sourceTree = "<group>";
@@ -92,6 +109,7 @@
 		04D9EDBA26397349005E6750 /* Hello Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				0436D15026E9AF8E0081E745 /* 栈 */,
 				04964E2626A63F8900896762 /* 链表 */,
 				04D9EDD6263AB415005E6750 /* utils */,
 				04D9EDD0263AAAD9005E6750 /* Test */,
@@ -190,11 +208,13 @@
 				04D9EDC62639737A005E6750 /* GLArrayList.m in Sources */,
 				04964E2A26A6A47800896762 /* GLSignleLinkedList.m in Sources */,
 				04D9EDCE263A9314005E6750 /* GLListIndexOutOfBoundsException.m in Sources */,
+				0436D15326E9AFA70081E745 /* GLStack.m in Sources */,
 				04964E2E26A6A69600896762 /* GLSignleLinkedListNode.m in Sources */,
 				04BDB67C26CF913F00D5FC4A /* GLCycleLinkedList.m in Sources */,
 				04D9EDD9263AB428005E6750 /* GLLog.m in Sources */,
 				04D9EDD3263AAAF1005E6750 /* Person.m in Sources */,
 				04D9EDBC26397349005E6750 /* main.m in Sources */,
+				0436D0C926E74EDA0081E745 /* GLCycleSignleLinkedList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

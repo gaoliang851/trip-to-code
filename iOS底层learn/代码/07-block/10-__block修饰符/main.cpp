@@ -34212,11 +34212,23 @@ struct GLPerson_IMPL {
 typedef void(*GLBlock)(void);
 
 struct __Block_byref_age_0 {
- void *__isa; //isa指针，既然有isa指针那么就可以认为是一个OC对象
- __Block_byref_age_0 *__forwarding; //指向自身的指针
+ //isa指针
+ void *__isa;
+ //指向自身的指针
+ __Block_byref_age_0 *__forwarding;
  int __flags;
- int __size; //自己结构体的大小
- int age; //使用的值
+ //自己结构体的大小
+ int __size;
+ //使用的值
+ int age;
+};
+
+//被__block修饰后
+struct __main_block_impl_0 {
+  struct __block_impl impl;
+  struct __main_block_desc_0* Desc;
+  //捕获的 __block包装的对象
+  __Block_byref_age_0 *age;
 };
 
 //GLBlock的底层结构体

@@ -34196,23 +34196,14 @@ struct NSUUID_IMPL {
 struct __main_block_impl_0 {
   struct __block_impl impl;
   struct __main_block_desc_0* Desc;
-  int age; //这里是值的形式
   int *weight; //这里是地址的性质
-    //构造函数中，需要传入age的值以及weight的地址值
-  __main_block_impl_0(void *fp, struct __main_block_desc_0 *desc, int _age, int *_weight, int flags=0) : age(_age), weight(_weight) {
-    impl.isa = &_NSConcreteStackBlock;
-    impl.Flags = flags;
-    impl.FuncPtr = fp;
-    Desc = desc;
-  }
 };
-static void __main_block_func_0(struct __main_block_impl_0 *__cself) {
-    //获取了block内部的age的值
-    int age = __cself->age;
+static void __main_block_func_0(struct
+                                __main_block_impl_0 *__cself) {
     //获取了block内部的weight的指针
     int *weight = __cself->weight;
     //使用weight时，用*weight来取值
-    NSLog((NSString *)&__NSConstantStringImpl__var_folders_mx_tg911gc51gdgzk_mgp7nh9yw0000gn_T_main_72fe5f_mi_0,age,(*weight));
+    NSLog(@"...",(*weight));
 }
 
 static struct __main_block_desc_0 {

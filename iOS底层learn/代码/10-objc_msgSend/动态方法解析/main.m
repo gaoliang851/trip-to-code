@@ -10,8 +10,9 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        GLPerson *person = [[GLPerson alloc] init];
-        [person abc];
+//        GLPerson *person = [[GLPerson alloc] init];
+//        [person abc];
+        NSLog(@"%@",[NSObject forwardingTargetForSelector:@selector(test)]);
     }
     return 0;
 }

@@ -15,7 +15,7 @@
 		044709A1261713C700D85B84 /* GLPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 0447099F261713C700D85B84 /* GLPerson.m */; };
 		04470A3B261C3A8700D85B84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04470A3A261C3A8700D85B84 /* main.m */; };
 		04470A4D261C4C8D00D85B84 /* GLPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 04470A4C261C4C8D00D85B84 /* GLPerson.m */; };
-		048C420525FE502100A2FDBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 048C420425FE502100A2FDBB /* main.m */; };
+		048C420525FE502100A2FDBB /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 048C420425FE502100A2FDBB /* main.mm */; };
 		048C421625FE570600A2FDBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 048C421525FE570600A2FDBB /* main.m */; };
 		048C422F25FF09E500A2FDBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 048C422E25FF09E500A2FDBB /* main.m */; };
 		048C424525FF328400A2FDBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 048C424425FF328400A2FDBB /* main.m */; };
@@ -158,7 +158,7 @@
 		04470A4B261C4C8D00D85B84 /* GLPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLPerson.h; sourceTree = "<group>"; };
 		04470A4C261C4C8D00D85B84 /* GLPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLPerson.m; sourceTree = "<group>"; };
 		048C420225FE502100A2FDBB /* 01-block的基本使用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "01-block的基本使用"; sourceTree = BUILT_PRODUCTS_DIR; };
-		048C420425FE502100A2FDBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		048C420425FE502100A2FDBB /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		048C421325FE570600A2FDBB /* 02-block的本质 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "02-block的本质"; sourceTree = BUILT_PRODUCTS_DIR; };
 		048C421525FE570600A2FDBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		048C421C25FE586100A2FDBB /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -355,7 +355,7 @@
 		048C420325FE502100A2FDBB /* 01-block的基本使用 */ = {
 			isa = PBXGroup;
 			children = (
-				048C420425FE502100A2FDBB /* main.m */,
+				048C420425FE502100A2FDBB /* main.mm */,
 			);
 			path = "01-block的基本使用";
 			sourceTree = "<group>";
@@ -747,7 +747,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				048C420525FE502100A2FDBB /* main.m in Sources */,
+				048C420525FE502100A2FDBB /* main.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

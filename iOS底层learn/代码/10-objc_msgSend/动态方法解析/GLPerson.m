@@ -36,7 +36,7 @@ void other(id self,SEL _cmd) {
     if (sel == @selector(abc)) {
         class_addMethod(self,
                         sel,
-                        /* C语言的函数名就是函数地址 */
+                        /*C语言的函数名就是函数地址*/
                         (IMP)other,
                         "v16@0:8");
         return  YES;

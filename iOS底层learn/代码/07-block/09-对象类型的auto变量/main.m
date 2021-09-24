@@ -28,8 +28,12 @@ int main(int argc, const char * argv[]) {
 }
 
 
-/// MRC下，栈上的block 类型是 __NSStackBlock__,这种类型的block并不会对访问的变量进行捕获（强引用）；
-/// ARC下，会对栈上的block自动进行copy操作，使其变为__NSMallocBlock,该类型的block会对对象类型的Auto变量捕获。
+/// MRC下，栈上的block 类型是 __NSStackBlock__,
+/// 这种类型的block并不会对访问的变量进行捕获（强引用）
+/// 如果想要变量捕获（强引用）需要调用copy方法
+/// ARC下，会对栈上的block自动进行copy操作，
+/// 使其变为__NSMallocBlock,
+/// 该类型的block会对对象类型的Auto变量捕获。
 void test01(void){
     Block block;
     {
@@ -38,10 +42,6 @@ void test01(void){
         block = [^(void) {
             NSLog(@"---------%d",p.age);
         } copy];
-        //MRC下，需要release
-//            [p release];
     }
-    NSLog(@"-----");
-//        [block release];
 }
 

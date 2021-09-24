@@ -108,5 +108,66 @@ func testCycleLinkedList()  {
     print(list)
 }
 
-testCycleLinkedList()
+//testCycleLinkedList()
+
+func signleCycleLinkedListTest()  {
+    let list = SignleCycleLinkedList<Int>()
+    list.add(element: 0) //[0]
+    list.add(element: 1) // [0,1]
+    list.add(element: 2) // [0,1,2]
+    list.add(element: 3)
+    list.add(element: 4)
+    list.add(element: 5) // [0,1,2,3,4,5]
+    
+    list.add(element: -1, at: 0)
+    list.add(element: 20, at: list.size()) // [-1,0,1,2,3,4,5,20]
+    
+    list.remove(at: 0) // [0,1,2,3,4,5,20]
+    list.remove(at: list.size() - 1) // [0,1,2,3,4,5,20]
+    
+    list.set(element: 20, at: 2) // [0,1,20,3,4,5,20]
+    print(list)
+    
+    print("indexOf(20):\(list.indexOf(element: 20))")
+    
+    print("indexOf(120):\(list.indexOf(element: 120))")
+    
+    print("\(list.containsElement(element: 20))")
+    
+    print("\(list.containsElement(element: 120))")
+    
+    list.clear()
+    
+    print(list)
+    
+}
+
+//signleCycleLinkedListTest()
+
+//for i in 0..<9 {
+//    print("i = \(i)")
+//}
+
+func stackTest()  {
+    let s = Stack<Int>()
+    
+    s.push(element: 1)
+    s.push(element: 2)
+    s.push(element: 3)
+    s.push(element: 4)
+    s.push(element: 5)
+    
+    print(s.pop())
+    print(s.pop())
+    print(s.pop())
+    print(s.pop())
+    
+    print(s)
+    
+}
+
+stackTest()
+
+
+
 

@@ -9,6 +9,15 @@
 
 @implementation GLPerson
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        NSLog(@"abc");
+    }
+    return self;
+}
+
 //- (void) setAge: (int) age {
 //    NSLog(@"%s",__func__);
 //}

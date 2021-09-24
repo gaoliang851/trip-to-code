@@ -13,6 +13,7 @@ typedef void(^GLBlock)(void);
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
+        /*
         __block int age = 10;
         
         GLBlock glBlock = ^(void) {
@@ -21,7 +22,21 @@ int main(int argc, const char * argv[]) {
         };
         glBlock();
         NSLog(@"real age is %d",age);//real age is 20
+        */
+        /*
+        GLPerson *person = [[GLPerson alloc] init];
+        person.age = 20;
+        person.name = @"Java";
         
+        GLBlock glBlock = ^(void) {
+            person = [[GLPerson alloc] init];
+            person.age = 25;
+            person.name = @"C++"
+        };
+        glBlock();
+        
+        NSLog(@"%@",person);
+        */
     }
     return 0;
 }

@@ -1,6 +1,7 @@
 package com.algorithm.Test;
 
 import com.algorithm.List.ArrayList;
+import com.algorithm.List.SignleCycleLinkedList;
 
 public class ArrayListTest {
 
@@ -9,52 +10,41 @@ public class ArrayListTest {
     }
 
     public static void testArrayList() {
-        ArrayList<Integer> arrayList = new ArrayList();
-        arrayList.add(10);
-        arrayList.add(50);
-        arrayList.add(60);
-        arrayList.add(80);
-        arrayList.add(100);
-        arrayList.add(-20);
-        arrayList.add(0,12);
-        arrayList.add(7,99);
-        System.out.println(arrayList);
-        arrayList.remove(0);
-        System.out.println(arrayList);
-        arrayList.remove(arrayList.size() - 1);
-        System.out.println(arrayList);
-        arrayList.clear();
-        System.out.println(arrayList);
-        arrayList.add(11);
-        arrayList.add(22);
-        arrayList.add(33);
-        arrayList.add(44);
-        arrayList.add(55);
-        System.out.println(arrayList);
+        SignleCycleLinkedList<Integer> list = new SignleCycleLinkedList();
+        list.add(10);//[10]
+        list.add(50);//[10,50]
+        list.add(60);//[10,50,60]
+        list.add(80);//[10,50,60,80]
+        list.add(100);// [10,50,60,80，100]
+        list.add(-20); // [10,50,60,80,100，-20]
+        list.add(0,12);// [12，10,50,60,80,100，-20]
+        list.add(7,99);// [12，10,50,60,80,100,-20,99]
+        System.out.println(list);
+        list.remove(0);// [10,50,60,80,100,-20,99]
+        System.out.println(list);
+        list.remove(list.size() - 1);// [10,50,60,80,100,-20]
+        System.out.println(list);
 
-        arrayList.set(2,20);
-        System.out.println(arrayList);
+        list.set(2,20); // [10,50,20,80,100,-20]
+        System.out.println(list);
 
-        arrayList.set(0,0);
-        System.out.println(arrayList);
-        arrayList.set(4,10);
-        System.out.println(arrayList);
+        list.set(0,0);
+        System.out.println(list); // [0,50,20,80,100,-20]
+        list.set(4,77); // [0,50,20,80,77,-20]
+        System.out.println(list);
 
 
-        System.out.println("size = " + arrayList.size());
+        System.out.println(list.indexOf(-20));
 
+        System.out.println(list.get(4));
 
-        System.out.println(arrayList.indexOf(-2));
+        System.out.println(list.contains(22));
 
-        System.out.println(arrayList.get(4));
+        System.out.println(list.contains(80));
 
-        System.out.println(arrayList.contains(22));
+        list.clear();
 
-        System.out.println(arrayList.contains(99));
-
-        arrayList.clear();
-
-        System.out.println("is empty :" + arrayList.isEmpty());
+        System.out.println("is empty :" + list.isEmpty());
     }
 
 }

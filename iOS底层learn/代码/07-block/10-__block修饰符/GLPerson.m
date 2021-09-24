@@ -8,6 +8,11 @@
 #import "GLPerson.h"
 
 @implementation GLPerson
+
+- (NSString *)description {
+    return [NSString stringWithFormat:@"name is %@,age is %d",_name,_age];
+}
+
 - (void)dealloc
 {
     NSLog(@"Person dealloc");
