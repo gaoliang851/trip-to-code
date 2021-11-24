@@ -124,8 +124,70 @@ public class _138_复制带随机指针的链表 {
             this.random = null;
 
         }
+    }
+
+    // 刷题1
+    public Node copyRandomListByMap(Node head) {
+        Node node = head;
+        HashMap<Node,Node> nodeHashMap = new HashMap<>();
+        //1.遍历链表构建对应关系
+        while (node != null) {
+            Node newNode = new Node(node.val);
+            nodeHashMap.put(node,newNode);
+            node = node.next;
+        }
+
+        node = head;
+        while (node != null) {
+            Node mapNode = nodeHashMap.get(node);
+            mapNode.next = node.next != null ?  nodeHashMap.get(node.next): null;
+            mapNode.random = node.random != null ?  nodeHashMap.get(node.random): null;
+
+            node = node.next;
+        }
+        return nodeHashMap.get(head);
+    }
+
+    // 刷题2
+    public Node copyRandomListByAddNewNode(Node head) {
+
+        if (head == null) return null;
+
+        Node node = head;
+        // 把需要抽离的Node插入原有链表中
+        while (node != null) {
+            Node newNode = new Node(node.val);
+            newNode.next = node.next;
+            node.next = newNode;
+            node = newNode.next;
+        }
+
+        //2. 更新random
+        node = head;
+        while (node != null) {
+            // node不为空,那么newNode必然不为空
+            Node newNode = node.next;
+            //random节点有可能指向Null
+            if (node.random != null) newNode.random = node.random.next;
+
+            node = node.next.next;
+        }
 
 
+        // 3.分离原有链表和新链表
+        node = head;
+        Node newHead = head.next;
+        while (node != null) {
+            // node存在,node.next必然存在
+            Node newNode = node.next;
+
+            //修复原有链表的next指针
+            node.next = newNode.next;
+            if (node.next != null) newNode.next = node.next.next;
+
+            node = node.next;
+        }
+        return  newHead;
     }
 }
 
