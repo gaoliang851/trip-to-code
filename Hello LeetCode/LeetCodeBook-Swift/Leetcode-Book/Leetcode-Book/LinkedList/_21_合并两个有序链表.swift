@@ -13,7 +13,7 @@ import Foundation
 /// 示例1：
 /// 输入：l1 = [1,2,4], l2 = [1,3,4]
 /// 输出：[1,1,2,3,4,4]
-class Solution {
+class _21_合并两个有序链表_Solution {
     func mergeTwoLists(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
         mergeTwoLists_offical(l1, l2)
     }

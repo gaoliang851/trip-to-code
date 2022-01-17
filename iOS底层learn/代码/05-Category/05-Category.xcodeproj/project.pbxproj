@@ -21,6 +21,9 @@
 		0495AA8D25ADB035007696F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0495AA8C25ADB035007696F3 /* main.m */; };
 		0495AA9C25ADB05C007696F3 /* GLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0495AA9B25ADB05C007696F3 /* GLObject.m */; };
 		0495AAA125ADB088007696F3 /* GLObject+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 0495AAA025ADB088007696F3 /* GLObject+Test.m */; };
+		483960212761F55500CED912 /* NSObject+ABC.m in Sources */ = {isa = PBXBuildFile; fileRef = 483960202761F55500CED912 /* NSObject+ABC.m */; };
+		483960242761F57B00CED912 /* NSObject+SSS.m in Sources */ = {isa = PBXBuildFile; fileRef = 483960232761F57B00CED912 /* NSObject+SSS.m */; };
+		483960272761F5BB00CED912 /* NSNumber+TTTT.m in Sources */ = {isa = PBXBuildFile; fileRef = 483960262761F5BB00CED912 /* NSNumber+TTTT.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -90,6 +93,14 @@
 		0495AA9B25ADB05C007696F3 /* GLObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLObject.m; sourceTree = "<group>"; };
 		0495AA9F25ADB088007696F3 /* GLObject+Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GLObject+Test.h"; sourceTree = "<group>"; };
 		0495AAA025ADB088007696F3 /* GLObject+Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GLObject+Test.m"; sourceTree = "<group>"; };
+		4839601F2761F55500CED912 /* NSObject+ABC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+ABC.h"; sourceTree = "<group>"; };
+		483960202761F55500CED912 /* NSObject+ABC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ABC.m"; sourceTree = "<group>"; };
+		483960222761F57B00CED912 /* NSObject+SSS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+SSS.h"; sourceTree = "<group>"; };
+		483960232761F57B00CED912 /* NSObject+SSS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SSS.m"; sourceTree = "<group>"; };
+		483960252761F5BB00CED912 /* NSNumber+TTTT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNumber+TTTT.h"; sourceTree = "<group>"; };
+		483960262761F5BB00CED912 /* NSNumber+TTTT.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+TTTT.m"; sourceTree = "<group>"; };
+		483960282761F76700CED912 /* NSNumber+ABC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNumber+ABC.h"; sourceTree = "<group>"; };
+		4839602A2761F81000CED912 /* NSNumber+ABC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+ABC.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +139,14 @@
 			isa = PBXGroup;
 			children = (
 				0485D58625B825960065821F /* main.m */,
+				4839601F2761F55500CED912 /* NSObject+ABC.h */,
+				483960202761F55500CED912 /* NSObject+ABC.m */,
+				483960222761F57B00CED912 /* NSObject+SSS.h */,
+				483960232761F57B00CED912 /* NSObject+SSS.m */,
+				483960252761F5BB00CED912 /* NSNumber+TTTT.h */,
+				483960262761F5BB00CED912 /* NSNumber+TTTT.m */,
+				483960282761F76700CED912 /* NSNumber+ABC.h */,
+				4839602A2761F81000CED912 /* NSNumber+ABC.m */,
 			);
 			path = "Category的load方法";
 			sourceTree = "<group>";
@@ -316,7 +335,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				483960272761F5BB00CED912 /* NSNumber+TTTT.m in Sources */,
+				483960212761F55500CED912 /* NSObject+ABC.m in Sources */,
 				0485D58725B825960065821F /* main.m in Sources */,
+				483960242761F57B00CED912 /* NSObject+SSS.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

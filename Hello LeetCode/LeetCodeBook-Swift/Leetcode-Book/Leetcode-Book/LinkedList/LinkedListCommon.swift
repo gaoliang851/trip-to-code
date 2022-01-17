@@ -41,3 +41,23 @@ public class ListNode : CustomStringConvertible{
         return str
     }
  }
+
+/// [2,4,5,6]
+func switchNumbersToLists(nums: [Int]) -> ListNode? {
+    let vhead = ListNode(0, nil)
+    var node = vhead
+    for i in 0..<nums.count {
+        node.next = ListNode(nums[i],nil)
+        node = node.next!
+    }
+    return vhead.next
+}
+
+func switchListsOfLinkedList(nums: [[Int]]) -> [ListNode?] {
+    var result = [ListNode?]()
+    for numberList in nums {
+        result.append(switchNumbersToLists(nums: numberList))
+    }
+    
+    return result
+}

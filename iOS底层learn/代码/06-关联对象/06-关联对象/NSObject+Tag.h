@@ -6,11 +6,13 @@
 //
 
 #import <Foundation/Foundation.h>
+@class WeakAssociateObjWrapper;
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface NSObject (Tag)
 @property (nonatomic,copy) NSString *tag;
+@property WeakAssociateObjWrapper *obj;
 @end
 
 NS_ASSUME_NONNULL_END

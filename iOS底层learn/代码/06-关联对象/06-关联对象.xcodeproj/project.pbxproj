@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		043BF9C525C7CF8D007EF944 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 043BF9C425C7CF8D007EF944 /* main.m */; };
 		043BF9D325C7D1E2007EF944 /* NSObject+Tag.m in Sources */ = {isa = PBXBuildFile; fileRef = 043BF9D225C7D1E2007EF944 /* NSObject+Tag.m */; };
+		48565055275EFE5700870D4C /* WeakObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 48565054275EFE5700870D4C /* WeakObj.m */; };
+		48565058275EFF7D00870D4C /* WeakAssociateObjWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 48565057275EFF7D00870D4C /* WeakAssociateObjWrapper.m */; };
+		4856505B275F018F00870D4C /* AssignObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4856505A275F018F00870D4C /* AssignObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +31,12 @@
 		043BF9C425C7CF8D007EF944 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		043BF9D125C7D1E2007EF944 /* NSObject+Tag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Tag.h"; sourceTree = "<group>"; };
 		043BF9D225C7D1E2007EF944 /* NSObject+Tag.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Tag.m"; sourceTree = "<group>"; };
+		48565053275EFE5700870D4C /* WeakObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeakObj.h; sourceTree = "<group>"; };
+		48565054275EFE5700870D4C /* WeakObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeakObj.m; sourceTree = "<group>"; };
+		48565056275EFF7D00870D4C /* WeakAssociateObjWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeakAssociateObjWrapper.h; sourceTree = "<group>"; };
+		48565057275EFF7D00870D4C /* WeakAssociateObjWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeakAssociateObjWrapper.m; sourceTree = "<group>"; };
+		48565059275F018F00870D4C /* AssignObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssignObject.h; sourceTree = "<group>"; };
+		4856505A275F018F00870D4C /* AssignObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssignObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				043BF9C425C7CF8D007EF944 /* main.m */,
+				48565059275F018F00870D4C /* AssignObject.h */,
+				4856505A275F018F00870D4C /* AssignObject.m */,
 				043BF9D125C7D1E2007EF944 /* NSObject+Tag.h */,
 				043BF9D225C7D1E2007EF944 /* NSObject+Tag.m */,
+				48565053275EFE5700870D4C /* WeakObj.h */,
+				48565054275EFE5700870D4C /* WeakObj.m */,
+				48565056275EFF7D00870D4C /* WeakAssociateObjWrapper.h */,
+				48565057275EFF7D00870D4C /* WeakAssociateObjWrapper.m */,
 			);
 			path = "06-关联对象";
 			sourceTree = "<group>";
@@ -123,6 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48565058275EFF7D00870D4C /* WeakAssociateObjWrapper.m in Sources */,
+				4856505B275F018F00870D4C /* AssignObject.m in Sources */,
+				48565055275EFE5700870D4C /* WeakObj.m in Sources */,
 				043BF9D325C7D1E2007EF944 /* NSObject+Tag.m in Sources */,
 				043BF9C525C7CF8D007EF944 /* main.m in Sources */,
 			);
