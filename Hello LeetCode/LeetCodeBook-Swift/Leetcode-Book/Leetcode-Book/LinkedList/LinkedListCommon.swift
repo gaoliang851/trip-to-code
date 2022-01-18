@@ -42,6 +42,9 @@ public class ListNode : CustomStringConvertible{
     }
  }
 
+
+
+
 /// [2,4,5,6]
 func switchNumbersToLists(nums: [Int]) -> ListNode? {
     let vhead = ListNode(0, nil)
