@@ -43,6 +43,18 @@ public class ListNode : CustomStringConvertible{
  }
 
 
+extension ListNode: Hashable, Equatable {
+  public func hash(into hasher: inout Hasher) {
+    // 用于唯一标识
+    hasher.combine(val)
+    hasher.combine(ObjectIdentifier(self))
+  }
+  public static func == (lhs: ListNode, rhs: ListNode) -> Bool {
+    return lhs === rhs
+  }
+}
+
+
 
 
 /// [2,4,5,6]

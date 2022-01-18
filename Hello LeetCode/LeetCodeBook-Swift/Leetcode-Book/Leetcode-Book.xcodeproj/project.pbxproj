@@ -14,6 +14,7 @@
 		487C9C0827562D92006F06CB /* _025_K 个一组翻转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487C9C0727562D92006F06CB /* _025_K 个一组翻转链表.swift */; };
 		4882ECF627958D8800DFE0DA /* _086_分割链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4882ECF527958D8800DFE0DA /* _086_分割链表.swift */; };
 		4882ECF82795992B00DFE0DA /* _138_复制带随机指针的链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4882ECF72795992B00DFE0DA /* _138_复制带随机指针的链表.swift */; };
+		4882ECFC2796E3EB00DFE0DA /* _141_环形链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4882ECFB2796E3EB00DFE0DA /* _141_环形链表.swift */; };
 		4885F8932754A3DC00E74DDA /* _023_合并K个升序链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4885F8922754A3DC00E74DDA /* _023_合并K个升序链表.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		487C9C0727562D92006F06CB /* _025_K 个一组翻转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_025_K 个一组翻转链表.swift"; sourceTree = "<group>"; };
 		4882ECF527958D8800DFE0DA /* _086_分割链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_086_分割链表.swift"; sourceTree = "<group>"; };
 		4882ECF72795992B00DFE0DA /* _138_复制带随机指针的链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_138_复制带随机指针的链表.swift"; sourceTree = "<group>"; };
+		4882ECFB2796E3EB00DFE0DA /* _141_环形链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_141_环形链表.swift"; sourceTree = "<group>"; };
 		4885F8922754A3DC00E74DDA /* _023_合并K个升序链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_023_合并K个升序链表.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,9 +86,10 @@
 				485F895B274E45BA00FE4A87 /* _021_合并两个有序链表.swift */,
 				4885F8922754A3DC00E74DDA /* _023_合并K个升序链表.swift */,
 				487C9C0727562D92006F06CB /* _025_K 个一组翻转链表.swift */,
-				4839602C2762054600CED912 /* _206_反转链表.swift */,
 				4882ECF527958D8800DFE0DA /* _086_分割链表.swift */,
 				4882ECF72795992B00DFE0DA /* _138_复制带随机指针的链表.swift */,
+				4882ECFB2796E3EB00DFE0DA /* _141_环形链表.swift */,
+				4839602C2762054600CED912 /* _206_反转链表.swift */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 				4882ECF82795992B00DFE0DA /* _138_复制带随机指针的链表.swift in Sources */,
 				485F8955274E459500FE4A87 /* main.swift in Sources */,
 				4885F8932754A3DC00E74DDA /* _023_合并K个升序链表.swift in Sources */,
+				4882ECFC2796E3EB00DFE0DA /* _141_环形链表.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
