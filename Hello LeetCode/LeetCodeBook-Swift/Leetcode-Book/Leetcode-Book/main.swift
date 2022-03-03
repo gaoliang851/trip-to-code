@@ -37,4 +37,6 @@ let l3_0 = ListNode(-1, l3_1)
 //
 //print(node)
 
-_86_分割链表_Solution_test()
+//_86_分割链表_Solution_test()
+//test_142_环形链表2_Solution()
+test_203_移除链表元素_Solution()

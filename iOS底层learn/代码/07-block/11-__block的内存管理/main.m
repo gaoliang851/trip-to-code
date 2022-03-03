@@ -28,3 +28,21 @@ int main(int argc, const char * argv[]) {
     
     return 0;
 }
+
+void _main() {
+    __block __unsafe_unretained
+    GLPerson *person = [[GLPerson alloc] init];
+    person.age = 10;
+    GLBlock block = ^(void) {
+        NSLog(@"%d",person.age);
+    };
+    block();
+}
+
+struct __Block_byref_person_0 {
+    void *__isa;
+    __Block_byref_person_0 *__forwarding;
+    int __flags;
+    int __size;
+    GLPerson *__unsafe_unretained person;
+};
